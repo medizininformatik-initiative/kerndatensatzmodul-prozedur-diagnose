@@ -27,16 +27,15 @@
         <code value="BackboneElement" />
       </type>
     </element>
-    <element id="Prozedur.OPSProzedurKodiert.Prozedurenkode">
-      <path value="Prozedur.OPSProzedurKodiert.Prozedurenkode" />
-      <short value="OPS-Kode" />
+    <element id="Prozedur.OPSProzedurKodiert.VollständigerProzedurenkode">
+      <path value="Prozedur.OPSProzedurKodiert.VollständigerProzedurenkode" />
+      <short value="Der vollständige Prozedurenkode: Tripel aus OPS-Kode, Kodesystem (inkl. Version!) und Katalogtext." />
       <min value="0" />
       <max value="*" />
       <type>
         <code value="code" />
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
-      <fixedCode value="Der vollständige Prozedurencode: Tripel aus OPS-Kode, Kodesystem und Katalogtext." />
     </element>
     <element id="Prozedur.OPSProzedurKodiert.Seitenlokalisation">
       <path value="Prozedur.OPSProzedurKodiert.Seitenlokalisation" />
@@ -59,7 +58,7 @@
     </element>
     <element id="Prozedur.SNOMEDProzedurKodiert.VollständigerProzedurenkode">
       <path value="Prozedur.SNOMEDProzedurKodiert.VollständigerProzedurenkode" />
-      <short value="SNOMED-CT-Kode, Kodesystem und Präferierter Name" />
+      <short value="Der vollständige Prozedurenkode: Tripel aus SNOMED-CT-Kode, Kodesystem (Version optional) und Katalogtext." />
       <min value="0" />
       <max value="*" />
       <type>
@@ -75,6 +74,16 @@
       <type>
         <code value="string" />
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
+      </type>
+    </element>
+    <element id="Prozedur.Durchführungsgrund">
+      <path value="Prozedur.Durchführungsgrund" />
+      <short value="Intention mit der die Prozedur durchgeführt wird" />
+      <min value="0" />
+      <max value="*" />
+      <type>
+        <code value="code" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
     <element id="Prozedur.Durchführungsdatum">
