@@ -25,6 +25,8 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
+      <short value="Dokumentationsdatum der Prozedur" />
+      <definition value="Dokumentationsdatum der Prozedur, falls abweichend vom Durchführungsdatum" />
       <type>
         <code value="dateTime" />
       </type>
