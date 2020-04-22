@@ -64,6 +64,98 @@
       <path value="Procedure.meta.profile" />
       <mustSupport value="true" />
     </element>
+    <element id="Procedure.status">
+      <path value="Procedure.status" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.category">
+      <path value="Procedure.category" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.category.coding">
+      <path value="Procedure.category.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+    </element>
+    <element id="Procedure.category.coding:sct">
+      <path value="Procedure.category.coding" />
+      <sliceName value="sct" />
+      <min value="1" />
+      <max value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.category.coding:sct.system">
+      <path value="Procedure.category.coding.system" />
+      <min value="1" />
+      <patternUri value="http://snomed.info/sct" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.category.coding:sct.code">
+      <path value="Procedure.category.coding.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code">
+      <path value="Procedure.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding">
+      <path value="Procedure.code.coding" />
+      <slicing>
+        <discriminator>
+          <type value="pattern" />
+          <path value="system" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:ops">
+      <path value="Procedure.code.coding" />
+      <sliceName value="ops" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:ops.system">
+      <path value="Procedure.code.coding.system" />
+      <min value="1" />
+      <patternUri value="http://fhir.de/CodeSystem/dimdi/ops" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:ops.version">
+      <path value="Procedure.code.coding.version" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:ops.code">
+      <path value="Procedure.code.coding.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:sct">
+      <path value="Procedure.code.coding" />
+      <sliceName value="sct" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:sct.system">
+      <path value="Procedure.code.coding.system" />
+      <min value="1" />
+      <patternUri value="http://snomed.info/sct" />
+      <mustSupport value="true" />
+    </element>
+    <element id="Procedure.code.coding:sct.code">
+      <path value="Procedure.code.coding.code" />
+      <min value="1" />
+      <mustSupport value="true" />
+    </element>
     <element id="Procedure.performed[x]">
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
         <valueCode value="normative" />
