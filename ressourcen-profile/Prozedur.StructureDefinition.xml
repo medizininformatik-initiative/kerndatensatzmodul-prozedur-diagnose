@@ -35,32 +35,14 @@
       <mustSupport value="true" />
     </element>
     <element id="Procedure.meta">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Procedure.meta" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.meta.source">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Procedure.meta.source" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.meta.profile">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Procedure.meta.profile" />
       <mustSupport value="true" />
     </element>
@@ -178,12 +160,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Procedure.performed[x]">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Procedure.performed[x]" />
       <min value="1" />
       <type>
@@ -195,12 +171,6 @@
       <mustSupport value="true" />
     </element>
     <element id="Procedure.bodySite">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Procedure.bodySite" />
       <mustSupport value="true" />
       <binding>
@@ -211,12 +181,6 @@
       </binding>
     </element>
     <element id="Procedure.note">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-        <valueCode value="normative" />
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
-        <valueCode value="4.0.0" />
-      </extension>
       <path value="Procedure.note" />
       <mustSupport value="true" />
     </element>
