@@ -19,14 +19,17 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <derivation value="constraint" />
   <differential>
+    <element id="Extension">
+      <path value="Extension" />
+      <short value="Dokumentationsdatum der Prozedur" />
+      <definition value="Dokumentationsdatum der Prozedur, falls abweichend vom Durchführungsdatum" />
+    </element>
     <element id="Extension.url">
       <path value="Extension.url" />
       <fixedUri value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/procedure-recordedDate" />
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="Dokumentationsdatum der Prozedur" />
-      <definition value="Dokumentationsdatum der Prozedur, falls abweichend vom Durchführungsdatum" />
       <type>
         <code value="dateTime" />
       </type>
