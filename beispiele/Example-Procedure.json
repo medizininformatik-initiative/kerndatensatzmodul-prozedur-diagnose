@@ -4,5 +4,6 @@
         "profile": [
             "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Procedure"
         ]
-    }
+    },
+    "status": "completed"
 }
