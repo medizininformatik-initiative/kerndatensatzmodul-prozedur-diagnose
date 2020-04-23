@@ -5,5 +5,13 @@
             "https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Procedure"
         ]
     },
-    "status": "completed"
+    "status": "completed",
+    "category": {
+        "coding":[
+            {
+                "system": "http://snomed.info/sct",
+                "code": "387713003"
+            }
+        ]
+    }
 }
