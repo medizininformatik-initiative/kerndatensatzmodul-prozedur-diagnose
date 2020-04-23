@@ -14,6 +14,7 @@
             }
         ]
     },
+    "performedDateTime": "2020-04-23",
     "subject":{
         "identifier": {
             "system": "http://mii-standort.example.de/fhir/NamingSystem/pid",
