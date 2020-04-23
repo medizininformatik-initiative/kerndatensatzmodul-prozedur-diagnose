@@ -21,6 +21,11 @@
                 "system": "http://snomed.info/sct",
                 "code": "80146002",
                 "display": "Excision of appendix (procedure)"
+            },
+            {
+                "system": "http://fhir.de/CodeSystem/dimdi/ops|2020",
+                "code": "5-470",
+                "display": "Appendektomie"
             }
         ]
     },
