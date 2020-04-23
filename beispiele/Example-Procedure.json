@@ -13,5 +13,17 @@
                 "code": "387713003"
             }
         ]
+    },
+    "subject":{
+        "identifier": {
+            "system": "http://mii-standort.example.de/fhir/NamingSystem/pid",
+            "value": "1234567890",
+            "assigner":{
+                "identifier":{
+                    "system": "https://www.medizininformatik-initiative.de/fhir/core/NamingSystem/DIZ",
+                    "value": "UKK"
+                }   
+            }
+        }
     }
 }
