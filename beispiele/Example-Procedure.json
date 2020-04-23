@@ -23,7 +23,8 @@
                 "display": "Excision of appendix (procedure)"
             },
             {
-                "system": "http://fhir.de/CodeSystem/dimdi/ops|2020",
+                "system": "http://fhir.de/CodeSystem/dimdi/ops",
+                "version": "2020",
                 "code": "5-470",
                 "display": "Appendektomie"
             }
