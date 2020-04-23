@@ -126,6 +126,10 @@
       <path value="Procedure.code.coding" />
       <sliceName value="ops" />
       <mustSupport value="true" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="http://fhir.de/ValueSet/dimdi/ops" />
+      </binding>
     </element>
     <element id="Procedure.code.coding:ops.system">
       <path value="Procedure.code.coding.system" />
