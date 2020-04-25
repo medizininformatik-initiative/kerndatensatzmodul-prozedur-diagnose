@@ -67,6 +67,17 @@
       </type>
       <mustSupport value="true" />
     </element>
+    <element id="Procedure.extension:durchfuehrungsabsicht">
+      <path value="Procedure.extension" />
+      <sliceName value="durchfuehrungsabsicht" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Durchfuehrungsabsicht" />
+      </type>
+      <mustSupport value="true" />
+    </element>
     <element id="Procedure.status">
       <path value="Procedure.status" />
       <mustSupport value="true" />
