@@ -20,6 +20,30 @@
           {
             "code": "261004008",
             "display": "Diagnostic intent"
+          },
+          {
+            "code": "264931009",
+            "display": "Symptomatic"
+          },
+          {
+            "code": "255231005",
+            "display": "Revision - value"
+          },
+          {
+            "code": "255302009",
+            "display": "Complicated"
+          },
+          {
+            "code": "129428001",
+            "display": "Preventive intent"
+          },
+          {
+            "code": "394602003",
+            "display": "Rehabilitation - speciality"
+          },
+          {
+            "code": "74964007",
+            "display": "Other"
           }
         ]
       }
