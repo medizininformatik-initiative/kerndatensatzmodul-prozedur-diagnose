@@ -1,5 +1,6 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Prozedur" />
+  <version value="0.9" />
   <name value="Prozedur" />
   <status value="draft" />
   <fhirVersion value="4.0.0" />

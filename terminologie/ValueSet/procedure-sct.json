@@ -19,6 +19,7 @@
     "name": "procedure-codes",
     "publisher": "https://www.medizininformatik-initiative.de",
     "status": "draft",
+    "version": "0.9",
     "url": "https://www.medizininformatik-initiative.de/fhir/core/ValueSet/procedures-sct",
     "resourceType": "ValueSet"
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <url value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Durchfuehrungsabsicht" />
+  <version value="0.9" />
   <name value="Durchführungsabsicht" />
   <status value="draft" />
   <description value="Intention der Prozedur" />
