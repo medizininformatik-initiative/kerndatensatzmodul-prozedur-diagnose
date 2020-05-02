@@ -60,7 +60,6 @@
     <element id="Procedure.extension:recordedDate">
       <path value="Procedure.extension" />
       <sliceName value="recordedDate" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -71,7 +70,6 @@
     <element id="Procedure.extension:durchfuehrungsabsicht">
       <path value="Procedure.extension" />
       <sliceName value="durchfuehrungsabsicht" />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -120,6 +118,12 @@
     <element id="Procedure.code">
       <path value="Procedure.code" />
       <min value="1" />
+      <constraint>
+        <key value="sct-ops-1" />
+        <severity value="error" />
+        <human value="Entweder wird die Prozedur mit OPS oder SNOMED-CT kodiert." />
+        <expression value="coding.exists(system = 'http://snomed.info/sct') or coding.exists(system = 'http://fhir.de/CodeSystem/dimdi/ops')" />
+      </constraint>
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding">
