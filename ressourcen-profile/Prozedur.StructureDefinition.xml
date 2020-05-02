@@ -122,7 +122,7 @@
         <key value="sct-ops-1" />
         <severity value="error" />
         <human value="Entweder wird die Prozedur mit OPS oder SNOMED-CT kodiert." />
-        <expression value="coding.exists(system = 'http://snomed.info/sct') or coding.exists(system = 'http://fhir.de/CodeSystem/dimdi/ops')" />
+        <expression value="coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://fhir.de/CodeSystem/dimdi/ops').exists()" />
       </constraint>
       <mustSupport value="true" />
     </element>
