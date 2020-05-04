@@ -77,7 +77,7 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Prozedur.Durchführungsgrund">
+    <element id="Prozedur.Durchführungsabsicht">
       <path value="Prozedur.Durchführungsgrund" />
       <short value="Intention mit der die Prozedur durchgeführt wird" />
       <min value="0" />
