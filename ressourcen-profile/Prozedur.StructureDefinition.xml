@@ -162,7 +162,6 @@
     <element id="Procedure.code.coding:ops.extension:seitenlokalisation">
       <path value="Procedure.code.coding.extension" />
       <sliceName value="seitenlokalisation" />
-      <min value="1" />
       <max value="1" />
       <type>
         <code value="Extension" />
