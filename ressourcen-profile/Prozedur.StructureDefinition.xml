@@ -143,6 +143,7 @@
     <element id="Procedure.code.coding:ops">
       <path value="Procedure.code.coding" />
       <sliceName value="ops" />
+      <max value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
@@ -188,6 +189,7 @@
     <element id="Procedure.code.coding:sct">
       <path value="Procedure.code.coding" />
       <sliceName value="sct" />
+      <max value="1" />
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
