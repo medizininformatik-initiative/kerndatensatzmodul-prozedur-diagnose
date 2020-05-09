@@ -67,8 +67,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Prozedur.Körperstelle">
-      <path value="Prozedur.Körperstelle" />
+    <element id="Prozedur.Koerperstelle">
+      <path value="Prozedur.Koerperstelle" />
       <short value="Körperstelle der Prozedur mittels SNOMED CT inkl. Lateralität (R, L, B) " />
       <min value="0" />
       <max value="*" />
@@ -77,8 +77,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/string" />
       </type>
     </element>
-    <element id="Prozedur.Durchführungsabsicht">
-      <path value="Prozedur.Durchführungsgrund" />
+    <element id="Prozedur.Durchfuehrungsabsicht">
+      <path value="Prozedur.Durchfuehrungsabsicht" />
       <short value="Intention mit der die Prozedur durchgeführt wird" />
       <min value="0" />
       <max value="*" />
@@ -87,8 +87,8 @@
         <profile value="http://hl7.org/fhir/StructureDefinition/code" />
       </type>
     </element>
-    <element id="Prozedur.Durchführungsdatum">
-      <path value="Prozedur.Durchführungsdatum" />
+    <element id="Prozedur.Durchfuehrungsdatum">
+      <path value="Prozedur.Durchfuehrungsdatum" />
       <short value="Durchführungsdatum der Prozedur" />
       <min value="0" />
       <max value="*" />
