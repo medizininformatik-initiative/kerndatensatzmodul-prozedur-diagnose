@@ -1,0 +1,16 @@
+{
+  "name": null,
+  "version": null,
+  "description": null,
+  "author": null,
+  "devDependencies": null,
+  "canonicals": null,
+  "fhirVersions": [
+    "4.0.0"
+  ],
+  "dependencies": {
+    "de.basisprofil.r4": "0.9.5",
+    "de.medizininformatikinitiative.kerndatensatz": "0.0.2",
+    "hl7.fhir.r4.core": "4.0.1"
+  }
+}
