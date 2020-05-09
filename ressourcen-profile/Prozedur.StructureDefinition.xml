@@ -123,6 +123,7 @@
         <severity value="error" />
         <human value="Entweder wird die Prozedur mit OPS oder SNOMED-CT kodiert." />
         <expression value="coding.where(system = 'http://snomed.info/sct').exists() or coding.where(system = 'http://fhir.de/CodeSystem/dimdi/ops').exists()" />
+        <source value="Procedure" />
       </constraint>
       <mustSupport value="true" />
     </element>
@@ -146,6 +147,26 @@
         <strength value="required" />
         <valueSet value="http://fhir.de/ValueSet/dimdi/ops" />
       </binding>
+    </element>
+    <element id="Procedure.code.coding:ops.extension">
+      <path value="Procedure.code.coding.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="Procedure.code.coding:ops.extension:seitenlokalisation">
+      <path value="Procedure.code.coding.extension" />
+      <sliceName value="seitenlokalisation" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="http://fhir.de/StructureDefinition/seitenlokalisation" />
+      </type>
     </element>
     <element id="Procedure.code.coding:ops.system">
       <path value="Procedure.code.coding.system" />
