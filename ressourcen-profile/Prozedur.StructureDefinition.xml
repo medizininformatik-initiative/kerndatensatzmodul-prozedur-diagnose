@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <url value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Procedure" />
+  <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure" />
   <version value="0.9" />
   <name value="Prozedur" />
   <status value="draft" />
@@ -64,7 +64,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/procedure-recordedDate" />
+        <profile value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/procedure-recordedDate" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -74,7 +74,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Durchfuehrungsabsicht" />
+        <profile value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht" />
       </type>
       <mustSupport value="true" />
     </element>
@@ -193,7 +193,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/ValueSet/procedures-sct" />
+        <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct" />
       </binding>
     </element>
     <element id="Procedure.code.coding:sct.system">
@@ -214,7 +214,6 @@
       <type>
         <code value="Reference" />
         <profile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/MII-Reference" />
-        <targetProfile value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Patient" />
       </type>
     </element>
     <element id="Procedure.performed[x]">
