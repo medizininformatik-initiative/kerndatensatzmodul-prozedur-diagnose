@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
   "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend",
-  "version": "0.9",
+  "version": "1.0",
   "title": "Durchführungsabsicht",
-  "status": "draft",
+  "status": "active",
   "compose": {
     "include": [
       {
