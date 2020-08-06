@@ -95,12 +95,12 @@
         </discriminator>
         <rules value="open" />
       </slicing>
-      <min value="1" />
+      <min value="0" />
     </element>
     <element id="Procedure.category.coding:sct">
       <path value="Procedure.category.coding" />
       <sliceName value="sct" />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <mustSupport value="true" />
     </element>
