@@ -38,7 +38,7 @@
         <key value="proc-mii-1" />
         <severity value="error" />
         <human value="Falls die Prozedur per OPS kodiert wird, muss eine SNOMED-CT kodierte Category abgebildet werden" />
-        <expression value="category.coding.where(system = 'http://fhir.de/CodeSystem/dimdi/ops').exists() implies category.coding.where(system = 'http://snomed.info/sct').exists()" />
+        <expression value="code.coding.where(system = 'http://fhir.de/CodeSystem/dimdi/ops').exists() implies category.coding.where(system = 'http://snomed.info/sct').exists()" />
         <source value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Procedure" />
       </constraint>
     </element>
