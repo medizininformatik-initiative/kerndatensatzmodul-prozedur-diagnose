@@ -32,6 +32,16 @@
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Procedure" />
   <derivation value="constraint" />
   <differential>
+    <element id="Procedure">
+      <path value="Procedure" />
+      <constraint>
+        <key value="proc-mii-1" />
+        <severity value="error" />
+        <human value="Falls die Prozedur per OPS kodiert wird, muss eine SNOMED-CT kodierte Category abgebildet werden" />
+        <expression value="code.where(system = 'http://fhir.de/CodeSystem/dimdi/ops').exists() implies category.coding.where(system = 'http://snomed.info/sct').exists()" />
+        <source value="https://www.medizininformatik-initiative.de/fhir/core/StructureDefinition/Procedure" />
+      </constraint>
+    </element>
     <element id="Procedure.id">
       <path value="Procedure.id" />
       <mustSupport value="true" />
