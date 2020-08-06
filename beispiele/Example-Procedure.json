@@ -6,15 +6,6 @@
         ]
     },
     "status": "completed",
-    "category": {
-        "coding":[
-            {
-                "system": "http://snomed.info/sct",
-                "code": "387713003",
-                "display": "Surgical procedure (procedure)"
-            }
-        ]
-    },
     "code":{
         "coding":[
             {
