@@ -5,8 +5,8 @@
     "date": "2020-09-18",
     "description": "Enthaelt alle SNOMED Codes für ein Mapping der OPS Klassentitel",
     "experimental": false,
-    "name": "ProzedurenKategorie-SCT",
-    "publisher": "https://gematik.de",
+    "name": "procedure-category-sct",
+    "publisher": "https://www.medizininformatik-initiative.de",
     "status": "active",
     "compose": {
         "include": [
