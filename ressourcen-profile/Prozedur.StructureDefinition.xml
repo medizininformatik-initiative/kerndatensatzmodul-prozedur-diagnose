@@ -101,7 +101,7 @@
       <slicing>
         <discriminator>
           <type value="pattern" />
-          <path value="system" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -113,6 +113,9 @@
       <min value="0" />
       <max value="1" />
       <mustSupport value="true" />
+      <patternCoding>
+        <system value="http://snomed.info/sct" />
+      </patternCoding>
       <binding>
         <strength value="preferred" />
         <valueSet value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct" />
@@ -121,7 +124,6 @@
     <element id="Procedure.category.coding:sct.system">
       <path value="Procedure.category.coding.system" />
       <min value="1" />
-      <patternUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.category.coding:sct.code">
