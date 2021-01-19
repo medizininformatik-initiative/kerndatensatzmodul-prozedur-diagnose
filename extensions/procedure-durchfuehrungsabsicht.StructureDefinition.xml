@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="ExtensionDurchfuehrungsabsicht" />
   <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht" />
   <version value="1.0" />
-  <name value="Durchfuehrungsabsicht" />
+  <name value="ExtensionDurchfuehrungsabsicht" />
+  <title value="Extension - Durchfuehrungsabsicht" />
   <status value="active" />
   <description value="Intention der Prozedur" />
   <fhirVersion value="4.0.1" />

@@ -16,10 +16,12 @@
     "date": "2020-04-22",
     "description": "Enthaelt alle SNOMED Procedure Codes",
     "experimental": false,
-    "name": "procedure-codes",
+    "name": "ValueSetSNOMEDProcedureCodes",
+    "title": "ValueSet - SNOMED Procedure Codes",
     "publisher": "https://www.medizininformatik-initiative.de",
     "status": "active",
     "version": "1.0",
     "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct",
-    "resourceType": "ValueSet"
+    "resourceType": "ValueSet",
+    "id": "ValueSetSNOMEDProcedureCodes"
 }

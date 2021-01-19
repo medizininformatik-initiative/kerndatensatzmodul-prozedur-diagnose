@@ -1,11 +1,13 @@
 {
     "resourceType": "ValueSet",
+    "id": "ValueSetSNOMED-Procedure-Category",
+    "name": "ValueSetSNOMED-Procedure-Category",
+    "title": "ValueSet - SNOMED-Procedure-Category",
     "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct",
     "version": "1.0",
     "date": "2020-09-18",
     "description": "Enthaelt alle SNOMED Codes für ein Mapping der OPS Klassentitel",
     "experimental": false,
-    "name": "procedure-category-sct",
     "publisher": "https://www.medizininformatik-initiative.de",
     "status": "active",
     "compose": {

@@ -1,8 +1,10 @@
 {
   "resourceType": "ValueSet",
+  "id": "ValueSetDurchführungsabsicht",
   "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend",
   "version": "1.0",
-  "title": "Durchführungsabsicht",
+  "name": "ValueSetDurchführungsabsicht",
+  "title": "ValueSet - Durchführungsabsicht",
   "status": "active",
   "compose": {
     "include": [
@@ -50,7 +52,6 @@
     ]
   },
   "description": "Durchführungsabsicht der Prozedur",
-  "name": "Durchfuehrungsabsicht",
   "experimental": false,
   "date": "2020-04-24",
   "publisher": "https://www.medizininformatik-initiative.de"
