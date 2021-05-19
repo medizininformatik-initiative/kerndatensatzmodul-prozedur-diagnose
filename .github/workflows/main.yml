@@ -45,4 +45,4 @@ jobs:
           PATH_TO_EXAMPLES: beispiele
           DOTNET_VALIDATION_ENABLED: false
           JAVA_VALIDATION_ENABLED: true
-          OUTPUT_FORMAT: SUMMARY
+          OUTPUT_FORMAT: RAW
