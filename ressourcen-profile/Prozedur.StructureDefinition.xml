@@ -70,13 +70,13 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Procedure.extension:recordedDate">
+    <element id="Procedure.extension:Dokumentationsdatum">
       <path value="Procedure.extension" />
-      <sliceName value="recordedDate" />
+      <sliceName value="Dokumentationsdatum" />
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/procedure-recordedDate" />
+        <profile value="http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum" />
       </type>
       <mustSupport value="true" />
     </element>
