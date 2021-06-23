@@ -1,0 +1,32 @@
+# This is the minimal rule series
+
+# Known Issues:
+# - terminologie/* has been excluded from validation as FHIR QC takes too long otherwise
+# - terminologie/* has been excluded from the unique checks as the unique does not take the version of the conformance resource into account 
+
+- action: parse
+  name: parse-fhir-resources 
+  status: "Checking if all FHIR Resource files can be parsed"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+    - "!fhirpkg.lock.json"
+
+- name: resource-validation
+  status: "Validating resources against the FHIR standard and their profiles"  
+  action: validate
+  category: Resource
+  suppress: 
+        - 6005
+        - eld-16
+  files:
+    - "!terminologie/*"
+
+- action: unique
+  name: unique-canonicals
+  status: "Checking if all StructureDefinitions have a unique canonical"
+  filter: StructureDefinition
+  unique: url
+  files:
+    - "!terminologie/*"
