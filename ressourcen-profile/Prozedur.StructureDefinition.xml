@@ -161,6 +161,10 @@
       <path value="Procedure.code.coding" />
       <sliceName value="ops" />
       <max value="1" />
+      <type>
+        <code value="Coding" />
+        <profile value="http://fhir.de/StructureDefinition/CodingOPS" />
+      </type>
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
@@ -189,18 +193,14 @@
     </element>
     <element id="Procedure.code.coding:ops.system">
       <path value="Procedure.code.coding.system" />
-      <min value="1" />
-      <patternUri value="http://fhir.de/CodeSystem/dimdi/ops" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding:ops.version">
       <path value="Procedure.code.coding.version" />
-      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding:ops.code">
       <path value="Procedure.code.coding.code" />
-      <min value="1" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding:sct">
