@@ -168,7 +168,7 @@
       <mustSupport value="true" />
       <binding>
         <strength value="required" />
-        <valueSet value="http://fhir.de/ValueSet/dimdi/ops" />
+        <valueSet value="http://fhir.de/ValueSet/bfarm/ops" />
       </binding>
     </element>
     <element id="Procedure.code.coding:ops.extension">
