@@ -150,7 +150,7 @@
       <slicing>
         <discriminator>
           <type value="pattern" />
-          <path value="system" />
+          <path value="$this" />
         </discriminator>
         <rules value="open" />
       </slicing>
@@ -216,7 +216,6 @@
     <element id="Procedure.code.coding:sct.system">
       <path value="Procedure.code.coding.system" />
       <min value="1" />
-      <patternUri value="http://snomed.info/sct" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding:sct.code">
