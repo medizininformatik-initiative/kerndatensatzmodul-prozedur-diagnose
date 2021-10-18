@@ -183,7 +183,7 @@
     </element>
     <element id="Procedure.code.coding:ops.extension:Seitenlokalisation">
       <path value="Procedure.code.coding.extension" />
-      <sliceName value="seitenlokalisation" />
+      <sliceName value="Seitenlokalisation" />
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding:ops.system">
