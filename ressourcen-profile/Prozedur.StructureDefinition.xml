@@ -181,14 +181,9 @@
         <rules value="open" />
       </slicing>
     </element>
-    <element id="Procedure.code.coding:ops.extension:seitenlokalisation">
+    <element id="Procedure.code.coding:ops.extension:Seitenlokalisation">
       <path value="Procedure.code.coding.extension" />
       <sliceName value="seitenlokalisation" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="http://fhir.de/StructureDefinition/seitenlokalisation" />
-      </type>
       <mustSupport value="true" />
     </element>
     <element id="Procedure.code.coding:ops.system">
