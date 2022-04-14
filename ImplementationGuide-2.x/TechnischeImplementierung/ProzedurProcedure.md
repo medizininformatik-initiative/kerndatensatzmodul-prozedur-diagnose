@@ -63,6 +63,8 @@ Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden
 
 Weitere Vorgaben werden durch die Profile für die Datentypen OPS durch die Deutschen Basisprofile gemacht.
 
+---
+
 **Terminology Bindings**
 
 @```
