@@ -59,7 +59,7 @@
     </element>
     <element id="Prozedur.SNOMEDProzedurKodiert.VollstaendigerProzedurenkode">
       <path value="Prozedur.SNOMEDProzedurKodiert.VollstaendigerProzedurenkode" />
-      <short value="Der vollständige Prozedurenkode: Tripel aus SNOMED-CT-Kode, Kodesystem (Version optional) und Katalogtext." />
+      <short value="Der vollständige Prozedurenkode: Tripel aus SNOMED-CT-Kode, Kodesystem (Version optional) und präferierten Namen" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -69,7 +69,7 @@
     </element>
     <element id="Prozedur.Koerperstelle">
       <path value="Prozedur.Koerperstelle" />
-      <short value="Körperstelle der Prozedur mittels SNOMED CT inkl. Lateralität (R, L, B) " />
+      <short value="Körperstelle der Prozedur mittels SNOMED CT inkl. Lateralität (R, L, B)" />
       <min value="0" />
       <max value="*" />
       <type>
@@ -79,7 +79,7 @@
     </element>
     <element id="Prozedur.Durchfuehrungsabsicht">
       <path value="Prozedur.Durchfuehrungsabsicht" />
-      <short value="Intention mit der die Prozedur durchgeführt wird" />
+      <short value="Intention mit der die Prozedur durchgeführt wird." />
       <min value="0" />
       <max value="*" />
       <type>
@@ -89,7 +89,7 @@
     </element>
     <element id="Prozedur.Durchfuehrungsdatum">
       <path value="Prozedur.Durchfuehrungsdatum" />
-      <short value="Durchführungsdatum der Prozedur" />
+      <short value="Das Datum ist der Zeitpunkt, an dem eine Prozedur durchgeführt wurde." />
       <min value="0" />
       <max value="*" />
       <type>
@@ -99,7 +99,7 @@
     </element>
     <element id="Prozedur.Dokumentationsdatum">
       <path value="Prozedur.Dokumentationsdatum" />
-      <short value="Dokumentationsdatum der Prozedur" />
+      <short value="Das Datum ist der Zeitpunkt, an dem eine Prozedur dokumentiert wurde." />
       <min value="0" />
       <max value="*" />
       <type>
@@ -109,7 +109,7 @@
     </element>
     <element id="Prozedur.Freitextbeschreibung">
       <path value="Prozedur.Freitextbeschreibung" />
-      <short value="Prozedur im Klartext" />
+      <short value="Freitextbeschreibung der durchgeführten Prozedur" />
       <min value="0" />
       <max value="*" />
       <type>
