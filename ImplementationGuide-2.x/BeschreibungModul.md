@@ -1,6 +1,6 @@
 ## **Beschreibung Modul PROZEDUR**
 
-{{tree:MedizininformatikInitiative-ModulProzeduren/ModulProzedur}}
+{{render:ImplementationGuide-Common/images/ModulProzedur.jpg}}
 
 ---
 
@@ -18,12 +18,11 @@ Aus historischen und abrechnungstechnischen Gründen (Zusatzentgelte) zählen in
 
 ---
 
-
 ## **Abbildung Modul PROZEDUR in ART-DECOR**
 
 Das Modul sieht folgende Merkmale einer Prozedur vor, die zur automatisierten Verarbeitung der Prozedureninformationen benötigt werden: 
 
-[{{tree:MedizininformatikInitiative-ModulProzeduren/ProzedurArtDecor}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:ImplementationGuide-Common/images/ArtDecorProzedur.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 ---
 
@@ -40,7 +39,7 @@ Im vorliegenden Implementation Guide für das Modul PROZEDUR in der initialen Fa
 Wie einleitend angekündigt, fokussieren sich die Angaben im Modul PROZEDUR auf die wesentlichen Merkmale wie sie in den Use Cases der MII benötigt werden. Eine Beschreibung dieser Use Cases findet sich nachgfolgend im Abschnitt "Beschreibung von Szenarien für die Anwendung der Moduls PROZEDUR". Zunächst ist hier hauptsächlich die Prozedur selber und ein zugehöriges Durchführungsdatum zu nennen.
 Durchgeführte Operationen sollen durch ein Tripel aus einem Prozedurenkode, dem zugehörigen Katalog und dem Katalogtext eindeutig dargestellt werden. Eine Freitexteschreibung und die Angabe einer Seitenlokalisation können implizit vorhanden sein. 
 
-In der Regel wird in den Quellsystemen der beteiligten Universitätsklinika für die Kodierung von Prozeduren der proprietär-deutschen [OPS-Kataloge](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/) vom DIMDI benutzt. Als Wegmarke für die Weiterentwicklung der Dokumentation haben wir (wie im Modul [DIAGNOSE](https://simplifier.net/guide/medizininformatikinitiative-moduldiagnosen-implementationguide/igmiikdsmoduldiagnosen)) die ausführliche Nomenklatur SNOMED CT als erlaubtes Kodesystem ergänzt.
+In der Regel wird in den Quellsystemen der beteiligten Universitätsklinika für die Kodierung von Prozeduren der proprietär-deutschen [OPS-Kataloge](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/) vom DIMDI benutzt. Als Wegmarke für die Weiterentwicklung der Dokumentation haben wir (wie im Modul [DIAGNOSE](https://simplifier.net/guide/medizininformatikinitiative-moduldiagnosen-implementationguide)) die ausführliche Nomenklatur SNOMED CT als erlaubtes Kodesystem ergänzt.
 
 ### Freitextbeschreibung
 Sofern in den Quelldokumentationen vorhanden, erlaubt das Informationsmodell des MII-Kerndatensatzes diese abzuspeichern und zu präsentieren.
@@ -48,7 +47,7 @@ Für die ergänzende Kodierung können der OPS-Katalog und/oder SNOMED CT benutz
 
 ### OPS Prozedur kodiert
 
-[{{tree:MedizininformatikInitiative-ModulProzeduren/OPSProzedur}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:ImplementationGuide-Common/images/ArtDecorOps.jpg}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 Die führende Klassifikation und Nomenklatur für Operationen und sonstige Prozeduren (Eingriffe, Behandlungen, Untersuchungen) in Deutschland ist der Operationen- und Prozedurenschlüssel (OPS) vom DIMDI. <br> Der OPS ist eine fachgebietsübergreifende, monohierarchisch strukturierte, alphanumerische Klassifikation für Operationen und Prozeduren mit bis zu 6 Hierarchieebenen. 
 Die Systematik des OPS enthält in der aktuellen Fassung sechs Kapitel (1, 3, 5, 6, 8 und 9), die den Bereich aller kodierbaren medizinischen Maßnahmen abdecken. Aus historischen Gründen (Bezug zur ICPM) sind bei den Kapitelnummern Lücken; auch sind nicht alle vierstelligen Schlüsselnummern innerhalb der Kapitel belegt, die freien Stellen ermöglichen Erweiterungen.
@@ -77,7 +76,7 @@ Da der OPS keine präkoordinierten Seitenangaben enthält, wird diese in der Reg
 
 ### SNOMED Prozedur kodiert
 
-[{{tree:MedizininformatikInitiative-ModulProzeduren/SNOMEDProzedur}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:ImplementationGuide-Common/images/ArtDecorSct.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 Die Aufnahme der Nomenklatur SNOMED CT in den Kanon der Kodesysteme für Diagnosen, Prozeduren und weitere medizinische Entitäten folgt dem Beschluss des Nationalen Steuerungsgremium der MII, der Unterstützung durch das BMBF und den Zielen des BMG, die im [Referentenentwurf für das Patientendatenschutzgesetz](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Referentenentwurf_Patientendaten-Schutzgesetz__PDSG.pdf) dargestellt sind.
 Zur Zeit der Veröfffentlichung dieses ImplementationGuides wird SNOMED CT in Deutschland kaum benutzt. Die Aufnahme in den Kanon der Kodesysteme stellt also eher eine Wegmarke für eine international interoperable und besser mehrfach nutzbare Dokumentation dar, die bald erreicht werden soll.
