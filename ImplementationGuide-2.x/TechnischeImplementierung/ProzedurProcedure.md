@@ -1,17 +1,24 @@
-### Procedure
+### Prozedur (Procedure)
+
+---
+
+**Beschreibung**
 
 Dieses Profil beschreibt eine Prozedur in der Medizininformatik-Initiative.
 
-**Name**: ProfileProcedureProzedur ([Simplifier Link](https://simplifier.net/medizininformatikinitiative-modulprozeduren/prozedur))
+@```
+from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' select Name: name, Canonical: url
+```
 
-**Canonical**:
-```https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure```
+---
 
 **Differential**
 
 {{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure, diff}}
 
-<br>
+---
+
+**Hinweise**
 
 | FHIR-Element | Erklärung |
 |--------------|-----------|
@@ -25,7 +32,9 @@ Dieses Profil beschreibt eine Prozedur in der Medizininformatik-Initiative.
 | Procedure.bodySite           | Detaillierte Kodierung der Körperstelle(n) der Prozedur. Sollte NICHT verwendet werden um die Lateralität der Prozedur abzubilden. Dies ist eine Eigenschaft des Kodes. Siehe Procedure.code:ops |
 | Procedure.note | Freitextangaben zur Prozedur|
 
-<br>
+---
+
+**Mapping**
 
 | FHIR Element | Logischer Datensatz |
 |--------------|-----------|
@@ -44,18 +53,37 @@ Dieses Profil beschreibt eine Prozedur in der Medizininformatik-Initiative.
 | Procedure.extension.durchfuehrungsabsicht        | Prozedur.Durchfuehrungsabsicht         |
 
 
-<br>
+---
+
+**Constraints**
 
 Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden:
 
 **Constraints**: @``` from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' for differential.element.constraint select key,severity,human, expression```
 
+Weitere Vorgaben werden durch die Profile für die Datentypen OPS durch die Deutschen Basisprofile gemacht.
+
+**Terminology Bindings**
+
+@```
+from StructureDefinition
+where url in ('https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' )
+for differential.element
+select
+Path: path,
+join binding.where(valueSet.exists())
+{
+  Name: valueSet.substring((9 + valueSet.indexOf('ValueSet/'))),
+  Strength: strength,
+  URL: valueSet
+}
+```
 
 ---
 
 **Snapshot**
 
-{{tree:medizininformatikinitiative-modulprozeduren/Prozedur, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure, snapshot}}
 
 ---
 
@@ -63,5 +91,5 @@ Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden
 
 Beispiel (minimal):
 
-{{json:medizininformatikinitiative-modulprozeduren/Procedure-example}}
+{{json:beispiele/Example-Procedure.json}}
 
