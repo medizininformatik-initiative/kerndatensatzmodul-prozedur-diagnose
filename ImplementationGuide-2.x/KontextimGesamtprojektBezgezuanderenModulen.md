@@ -15,7 +15,7 @@ Perspektivisch sind Prozedurenangaben von hoher Bedeutung für eine Vielzahl von
 Abgesehen davon, dass per se fast alle Prozeduren einen Leistungserbringer erfordern, stammen natürlich praktische alle Prozedurenangaben von Leistungserbringern, bei denen die prozedural untersuchten oder behandelten Personen Patienten und Fälle sind.
 Dies wird durch eine Versorgungsfall-Prozedur-Relation ausgedrückt, die nicht im ART-Decor-Modell dargestellt ist, aber im FHIR-Profil implementiert wird.
 
-Es sei drauf verwiesen, dass das Modul [Medikation](https://simplifier.net/guide/MedizininformatikInitiative-ModulMedikation-ImplementationGuide/KontextimGesamtprojektBezgezuanderenModulen) als auch das Modul [Fall](https://simplifier.net/guide/MedizininformatikInitiative-ModulFall-ImplementationGuide/KontextimGesamtprojektBezgezuanderenModulen) Referenzen auf dieses Modul besitzen. Erläuterungen hierzu finden sich im jeweiligen Modul.
+Es sei drauf verwiesen, dass das Modul [Medikation](https://simplifier.net/guide/medizininformatikinitiative-modulmedikation-implementationguide) als auch das Modul [Fall](https://simplifier.net/guide/MedizininformatikInitiative-ModulFall-ImplementationGuide) Referenzen auf dieses Modul besitzen. Erläuterungen hierzu finden sich im jeweiligen Modul.
 
 ### Zurückgestellte Beziehungen zu anderen Modulen
 
