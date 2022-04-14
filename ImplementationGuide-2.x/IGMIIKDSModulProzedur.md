@@ -2,7 +2,7 @@
 
 | Hinweis | Under Construction! |
 |---------|---------------------|
-| {{render:Warning}} | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Prozedur' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
+| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Prozedur' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
 
 Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Moduls 'Prozedur' im Kerndatensatz der Medizininformatik-Initiative. 
 
@@ -10,7 +10,7 @@ Im Folgenden werden die Use-Cases des Moduls, sowie die dazugehörigen FHIR-Prof
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   | 10.06.2021  |
+| Datum   | 01.06.2021  |
 | Version | 2.0.0-ballot|
 | Status  | Active      |
 | Realm   | DE          | 
