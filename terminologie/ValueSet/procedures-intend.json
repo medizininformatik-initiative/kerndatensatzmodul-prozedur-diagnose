@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "id": "ValueSet-MII-Durchfuehrungsabsicht",
   "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend",
-  "version": "1.0",
+  "version": "2.0.0-ballot",
   "name": "ValueSet_MII_Durchfuehrungsabsicht",
   "title": "ValueSet - MI-I - Durchführungsabsicht",
   "status": "active",

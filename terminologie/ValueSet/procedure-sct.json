@@ -2,7 +2,7 @@
     "resourceType": "ValueSet",
     "id": "ValueSet-MII-SnomedProcedureCodes",
     "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct",
-    "version": "1.0",
+    "version": "2.0.0-ballot",
     "name": "ValueSet_MII_SnomedProcedureCodes",
     "title": "ValueSet - MI-I - SNOMED CT Procedure Codes",
     "status": "active",

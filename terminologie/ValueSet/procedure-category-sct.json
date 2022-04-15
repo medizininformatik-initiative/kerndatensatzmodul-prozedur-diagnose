@@ -4,7 +4,7 @@
     "name": "ValueSet_MII_SnomedProcedure-Category",
     "title": "ValueSet - MI-I - SNOMED CT Procedure Category",
     "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct",
-    "version": "1.0",
+    "version": "2.0.0-ballot",
     "date": "2020-09-18",
     "description": "Enthaelt alle SNOMED CT Codes für ein Mapping der OPS Klassentitel",
     "experimental": false,

@@ -2,7 +2,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Profile-MII-Procedure-Prozedur" />
   <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure" />
-  <version value="2.0.0" />
+  <version value="2.0.0-ballot" />
   <name value="Profile_MII_ProcedureProzedur" />
   <title value="Profile - MI-I - Procedure - Prozedur" />
   <status value="active" />
