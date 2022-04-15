@@ -1,0 +1,14 @@
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="sp-mii-prozedur-bodysite"/>
+  <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-BodySite"/>
+  <version value="2.0.0-ballot" />
+  <name value="SP_MII_Prozedur_BodySite"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-02-21"/>
+  <description value="Suchparameter für Procedure.bodySite" />
+  <code value="bodySite"/>
+  <base value="Procedure"/>
+  <type value="token"/>
+  <expression value="Patient.bodySite"/>
+</SearchParameter>
