@@ -18,6 +18,7 @@ Siehe [SNOMED-CT / OPS Mapping - Deutsche Basisprofile](https://simplifier.net/g
 
 Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten. Zur Verwendung für Validationszwecke muss diese per FHIR-Terminologieserver erstellt werden.
 
+|--|--|
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend  |
 |Simplifier Link| [ValueSet](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2.0.0-alpha4)|
@@ -27,6 +28,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 
 <br><br>
 
+|--|--|
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct  |
 |Simplifier Link| [ValueSet](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2.0.0-alpha4)|
@@ -36,6 +38,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 
 <br><br>
 
+|--|--|
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct  |
 |Simplifier Link| [ValueSet](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2.0.0-alpha4)|
