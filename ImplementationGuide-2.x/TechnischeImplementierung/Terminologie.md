@@ -18,6 +18,7 @@ Siehe [SNOMED-CT / OPS Mapping - Deutsche Basisprofile](https://simplifier.net/g
 
 Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten. Zur Verwendung für Validationszwecke muss diese per FHIR-Terminologieserver erstellt werden.
 
+| VS_MII_Prozedur_Durchfuehrungsabsicht_SNOMEDCT   |   |
 |--|--|
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend  |
@@ -28,6 +29,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 
 <br><br>
 
+| VS_MII_Prozedur_OpsKategorien_SNOMEDCT   |   |
 |--|--|
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct  |
@@ -38,6 +40,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 
 <br><br>
 
+| VS_MII_Prozedur_Prozeduren_SNOMEDCT   |   |
 |--|--|
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct  |
