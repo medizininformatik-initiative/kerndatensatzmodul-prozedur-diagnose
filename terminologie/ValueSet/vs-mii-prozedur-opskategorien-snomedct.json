@@ -1,6 +1,6 @@
 {
     "resourceType": "ValueSet",
-    "id": "vs_mii_prozedur_opskategorien_snomedct",
+    "id": "vs-mii-prozedur-opskategorien-snomedct",
     "name": "VS_MII_Prozedur_OpsKategorien_SNOMEDCT",
     "title": "VS MII Prozedur OPS Kategorien [SNOMED CT]",
     "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct",

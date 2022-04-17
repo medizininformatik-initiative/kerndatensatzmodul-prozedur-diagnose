@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "id": "vs_mii_prozedur_durchfuehrungsabsicht_snomedct",
+  "id": "vs-mii-prozedur-durchfuehrungsabsicht-snomedct",
   "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend",
   "version": "2.0.0-ballot",
   "name": "VS_MII_Prozedur_Durchfuehrungsabsicht_SNOMEDCT",
