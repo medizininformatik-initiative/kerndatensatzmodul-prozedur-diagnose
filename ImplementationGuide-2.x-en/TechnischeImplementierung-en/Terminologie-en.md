@@ -2,7 +2,7 @@
 
 | Note |  |
 |---------|---------------------|
-| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Additionally to the international terminology used by the module PERSON, custom CodeSystems are defined by it. Please note that each CodesSystem also contains a corresponding implicit ValueSet. Please see the definition of the CodeSystem Resource for further deatils.|
+| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Additionally to the international terminology used by the module PROCEDURE, custom CodeSystems are defined by it. Please note that each CodesSystem also contains a corresponding implicit ValueSet. Please see the definition of the CodeSystem Resource for further deatils.|
 
 ----
 
