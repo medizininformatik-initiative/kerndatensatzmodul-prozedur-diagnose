@@ -1,40 +1,40 @@
-## **Beschreibung Modul PROZEDUR**
+## **Description Module PROCEDURE**
 
 {{render:ImplementationGuide-Common/images/ModulProzedur.jpg}}
 
 ---
 
-## **Einleitung**
+## **Introduction**
 
-Das Basismodul PROZEDUR enthält Datenelemente zur Dokumentation von Operationen, Eingriffen und sonstigen medizinischen Prozeduren sowie ausgewählter medikamentöser Therapien. 
+The basic PROZEDUR module contains data elements for documenting operations, interventions and other medical procedures as well as selected drug therapies.
 
-Das Modul wird verwendet, um die Details aktueller und historischer Eingriffe aufzuzeichnen. Eine Prozedur ist eine Tätigkeit, die im Rahmen der Versorgung an, mit oder für einen Patienten durchgeführt wird. 
+The module is used to record the details of current and historical procedures. A procedure is an activity performed on, with, or for a patient as part of care. 
 
-*Beispiele hierfür sind chirurgische Verfahren, diagnostische Verfahren, geburtshilfliche Unterstützung, endoskopische Verfahren, Biopsien, Beratung, Physiotherapie, persönliche Unterstützungsdienste, Tagespflegedienste für Erwachsene, Nicht-Notfalltransporte, Heimmodifikationen, Übungen usw.* 
+*Examples include surgical procedures, diagnostic procedures, obstetrical support, endoscopic procedures, biopsies, counseling, physical therapy, personal support services, adult day care services, non-emergency transportation, home modifications, exercise, etc.*
 
-Die Eingriffe können von einer medizinischen Fachkraft, einem Dienstleister, einem Freund oder Verwandten oder in einigen Fällen vom Patienten selbst durchgeführt werden. 
+The procedures may be performed by a health care professional, a provider, a friend or relative, or in some cases by the patient.
 
-Aus historischen und abrechnungstechnischen Gründen (Zusatzentgelte) zählen in Deutschland auch ausgewählte teure Medikamente als eigenständige Prozedur.
+For historical and billing reasons (additional charges), selected expensive drugs also count as separate procedures in Germany.
 
 ---
 
-## **Abbildung Modul PROZEDUR in ART-DECOR**
+## **Modelling Module Procedure in ART-DECOR**
 
-Das Modul sieht folgende Merkmale einer Prozedur vor, die zur automatisierten Verarbeitung der Prozedureninformationen benötigt werden: 
+The module provides for the following characteristics of a procedure, which are needed for automated processing of the procedure information:
 
 [{{render:ImplementationGuide-Common/images/ArtDecorProzedur.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 ---
 
-Eine Prozedur ist „eine Aktion, die an oder für einen Patienten durchgeführt wird oder wurde. Dies kann ein physischer Eingriff wie eine Operation sein, oder weniger invasiv wie Langzeit-dienste, Beratung oder Hypnotherapie.“ (siehe http://hl7.org/fhir/procedure.html)
+A procedure is "an action that is or has been performed on or for a patient. This may be a physical intervention such as surgery, or less invasive such as long-term services, counseling, or hypnotherapy." (see http://hl7.org/fhir/procedure.html).
 
-Angaben zur Prozedur können von der bloßen Erfassung eines Prozedurenkodes bei einem Behandlungsfall bis hin zu einer detaillierten strukturierten OP-Dokumentation mit Hauptprozedur und Nebenprozeduren inklusive Anästhesie und Lagerungspflege mit Einzelerfassung von OP-Datum, Gesamt-OP-Zeit, Anästhesiezeit, Schnitt-Naht-Zeit, Operateuren, Anästhesisten, OP-Pflegern, Medikationen und weiterem reichen. 
+Information on the procedure can range from the mere recording of a procedure code for a treatment case to a detailed structured OR documentation with main procedure and secondary procedures including anesthesia and positioning care with individual recording of OR date, total OR time, anesthesia time, incision-suture time, surgeons, anesthesiologists, OR nurses, medications and more.
 
-Im vorliegenden Implementation Guide für das Modul PROZEDUR in der initialen Fassung des MII-Kerndatensatzes fokussieren wir auf die grundlegenden Notwendigkeiten für die Use Cases der MI-Initiative. Wir beschränken uns im wesentlichen auf die Grundmerkmale Prozedur und Datum. Ergänzt werden können eine Freitextbeschreibung und eine Körperstelle. Wir lassen somit bewusst Raum für die spätere Ausgestaltung des Moduls.
+In this Implementation Guide for the PROCEDURE module in the initial version of the MII core data set, we focus on the basic necessities for the use cases of the MI initiative. We mainly restrict ourselves to the basic features procedure and date. A free text description and a body location can be added. We thus deliberately leave room for the later design of the module.
 
 ---
 
-## **1. Fokussierte Basisangaben zur Prozedur**
+## **1. basic procedure information**
 
 Wie einleitend angekündigt, fokussieren sich die Angaben im Modul PROZEDUR auf die wesentlichen Merkmale wie sie in den Use Cases der MII benötigt werden. Eine Beschreibung dieser Use Cases findet sich nachgfolgend im Abschnitt "Beschreibung von Szenarien für die Anwendung der Moduls PROZEDUR". Zunächst ist hier hauptsächlich die Prozedur selber und ein zugehöriges Durchführungsdatum zu nennen.
 Durchgeführte Operationen sollen durch ein Tripel aus einem Prozedurenkode, dem zugehörigen Katalog und dem Katalogtext eindeutig dargestellt werden. Eine Freitexteschreibung und die Angabe einer Seitenlokalisation können implizit vorhanden sein. 
