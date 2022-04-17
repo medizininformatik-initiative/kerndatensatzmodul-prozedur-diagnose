@@ -1,12 +1,13 @@
-## Referenzen
+## References
 
-Die Modellierung des Datensatzes zum Modul PROZEDUR enthält Referenzen zu folgenden Projekten:
+The modeling of the data set to the PROCEDURE module contains references to the following projects:
 
-* § 21-[Datensatz](https://www.g-drg.de/Datenlieferung_gem._21_KHEntgG/Dokumente_zur_Datenlieferung/Datensatzbeschreibung) gemäß KHEntgG, zwecks Rückwärtskompatibilität
-* FHIR-Profil Procecure-uv-ips der [IPS](https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Procedure-uv-ips.html) (International Patient Summary), perspektivisch zwecks Vorwärtskompatibilität.
+* § 21-[Dataset](https://www.g-drg.de/Datenlieferung_gem._21_KHEntgG/Dokumente_zur_Datenlieferung/Datensatzbeschreibung) according to KHEntgG, for backward compatibility.
 
-Es wurden außerdem die [Kernspezifikation von HL7 FHIR](http://hl7.org/fhir/), hierunter die entsprechende Ressource [Procedure](https://www.hl7.org/fhir/procedure.html), und die bisherigen Arbeiten zu den Deutschen Basisprofilen in FHIR Version [STU3](https://simplifier.net/basisprofilde) und [R4](https://simplifier.net/basisprofil-de-r4) berücksichtigt. 
+* FHIR-Profil Procecure-uv-ips of the [IPS](https://build.fhir.org/ig/HL7/fhir-ips/StructureDefinition-Procedure-uv-ips.html) (International Patient Summary), already considered for forward compatibility.
 
-Die vorliegende Spezifikation wurde gestaltet auf Basis der Beschreibung des MII-Kerndatensatzes in der Version vom 10.3.2017 [(PDF)](https://www.medizininformatik-initiative.de/sites/default/files/inline-files/MII_04_Kerndatensatz_1-0.pdf), sowie der Datensatzbeschreibung in [ART-DECOR](https://art-decor.org/art-decor/decor-project--mide-).
+The [Core Specification of HL7 FHIR](http://hl7.org/fhir/), including the corresponding resource [Procedure](https://www.hl7.org/fhir/procedure.html), and previous work on the German Base Profiles in FHIR Version [STU3](https://simplifier.net/basisprofilde) and [R4](https://simplifier.net/basisprofil-de-r4) were also taken into account. 
 
-Bei den Klassifikationen und Terminologien wird zum einen auf den deutschen [„Operationen- und Prozedurenschlüssel“](https://www.dimdi.de/dynamic/de/klassifikationen/ops/) aus dem DIMDI zurückgegriffen. Zum anderen wird die Einführung des Prozedurenteils von [SNOMED CT](http://www.snomed.org) antizipiert.
+The current specification was designed based on the description of the MII core data set in the version of 10.3.2017 [(PDF)](https://www.medizininformatik-initiative.de/sites/default/files/inline-files/MII_04_Kerndatensatz_1-0.pdf), as well as the data set description in [ART-DECOR](https://art-decor.org/art-decor/decor-project--mide-).
+
+For the classifications and terminologies, the German ["Operationen- und Prozedurenschlüssel"](https://www.dimdi.de/dynamic/de/klassifikationen/ops/) from DIMDI is used on the one hand. On the other hand, the introduction of the procedure section of [SNOMED CT](http://www.snomed.org) is anticipated.
