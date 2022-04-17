@@ -1,3 +1,3 @@
-## Anwendungsfälle / Informationsmodell
+## Use Cases / Information Model
 
-Diese Seite wurde absichtlich leer gelassen.
+This page was intentionally left blank.
