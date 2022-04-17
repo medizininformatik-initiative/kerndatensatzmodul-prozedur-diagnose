@@ -2,7 +2,7 @@
 
 | Note | Under Construction! |
 |---------|---------------------|
-| {{render:Warning}} | This Implementation Guide represents the current operating version of the module 'Procedure'. The respective version published for productive use can be found on [this page of the Medical Informatics Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
+| {{render:ImplementationGuide-Common/images/Warning.jpg}}| This Implementation Guide represents the current operating version of the module 'Procedure'. The respective version published for productive use can be found on [this page of the Medical Informatics Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
 
 This specification describes the FHIR representation of the core data set module 'Procedure' of the Medical Informatics Initiative.
 In the following, the use cases of the module as well as the associated FHIR profiles and terminology resources are described in their binding form.
