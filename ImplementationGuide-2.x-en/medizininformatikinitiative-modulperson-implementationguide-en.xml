@@ -9,35 +9,35 @@
   <definition>
     <page>
       <nameUrl value="ImplementationGuide-2.x-en/IGMIIKDSModulProzedur-en.md" />
-      <title value="IG MII KDS Modul Prozedur" />
+      <title value="IG MII KDS Modul Procedure" />
       <generation value="markdown" />
       <page>
         <nameUrl value="ImplementationGuide-2.x-en/BeschreibungModul-en.md" />
-        <title value="Beschreibung Modul" />
+        <title value="Description Module Procedure" />
         <generation value="markdown" />
       </page>
       <page>
         <nameUrl value="ImplementationGuide-2.x-en/KontextimGesamtprojektBezgezuanderenModulen-en.md" />
-        <title value="Kontext im Gesamtprojekt / Bezüge zu anderen Modulen" />
+        <title value="Context in the overall project / references to other modules" />
         <generation value="markdown" />
       </page>
       <page>
         <nameUrl value="ImplementationGuide-2.x-en/Referenzen-en.md" />
-        <title value="Referenzen" />
+        <title value="References" />
         <generation value="markdown" />
       </page>
       <page>
         <nameUrl value="ImplementationGuide-2.x-en/AnwendungsflleInformationsmodell-en.md" />
-        <title value="Anwendungsfälle / Informationsmodell" />
+        <title value="Use Cases / Informationmodell" />
         <generation value="markdown" />
         <page>
           <nameUrl value="ImplementationGuide-2.x-en/BeschreibungvonSzenarienfrdieAnwendungderModule-en.md" />
-          <title value="Beschreibung von Szenarien für die Anwendung der Module" />
+          <title value="Description of scenarios for the usage within the modules" />
           <generation value="markdown" />
         </page>
         <page>
           <nameUrl value="ImplementationGuide-2.x-en/Datenstzeinkl.Beschreibungen-en.md" />
-          <title value="Datensätze inkl. Beschreibungen" />
+          <title value="Data Sets incl. descriptions" />
           <generation value="markdown" />
         </page>
         <page>
@@ -48,15 +48,15 @@
       </page>
       <page>
         <nameUrl value="ImplementationGuide-2.x-en/TechnischeImplementierung-en/TechnischeImplementierung-en.md" />
-        <title value="Technische Implementierung" />
+        <title value="Tecnical Implementation" />
         <generation value="markdown" />
         <page>
           <nameUrl value="ImplementationGuide-2.x-en/TechnischeImplementierung-en/FHIR-Profile-en.md" />
-          <title value="FHIR-Profile" />
+          <title value="FHIR Profiles" />
           <generation value="markdown" />
           <page>
             <nameUrl value="ImplementationGuide-2.x-en/TechnischeImplementierung-en/ProzedurProcedure-en.md" />
-            <title value="Prozedur (Procedure)" />
+            <title value="Procedure (Procedure)" />
             <generation value="markdown" />
           </page>
         </page>
@@ -67,7 +67,7 @@
         </page>
         <page>
           <nameUrl value="ImplementationGuide-2.x-en/TechnischeImplementierung-en/Terminologie-en.md" />
-          <title value="Terminologien" />
+          <title value="Terminology" />
           <generation value="markdown" />
         </page>
       </page>
