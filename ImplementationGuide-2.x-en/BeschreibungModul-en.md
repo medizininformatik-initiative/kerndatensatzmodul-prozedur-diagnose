@@ -36,73 +36,72 @@ In this Implementation Guide for the PROCEDURE module in the initial version of 
 
 ## **1. basic procedure information**
 
-Wie einleitend angekündigt, fokussieren sich die Angaben im Modul PROZEDUR auf die wesentlichen Merkmale wie sie in den Use Cases der MII benötigt werden. Eine Beschreibung dieser Use Cases findet sich nachgfolgend im Abschnitt "Beschreibung von Szenarien für die Anwendung der Moduls PROZEDUR". Zunächst ist hier hauptsächlich die Prozedur selber und ein zugehöriges Durchführungsdatum zu nennen.
-Durchgeführte Operationen sollen durch ein Tripel aus einem Prozedurenkode, dem zugehörigen Katalog und dem Katalogtext eindeutig dargestellt werden. Eine Freitexteschreibung und die Angabe einer Seitenlokalisation können implizit vorhanden sein. 
+As described in the introduction, the data elements in the PROCEDURE module focuses on the essential features based on which required in the use cases of the MII. A description of these use cases can be found below in the section "Description of scenarios for the application of the PROZEDUR module". First of all, the procedure itself and an associated execution date should be mentioned here.
+Performed operations should be unambiguously represented by a triple of a procedure code, the associated catalog and the catalog text. A free text description and the specification of a bode-site localization can be implicitly present. 
 
-In der Regel wird in den Quellsystemen der beteiligten Universitätsklinika für die Kodierung von Prozeduren der proprietär-deutschen [OPS-Kataloge](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/) vom DIMDI benutzt. Als Wegmarke für die Weiterentwicklung der Dokumentation haben wir (wie im Modul [DIAGNOSE](https://simplifier.net/guide/medizininformatikinitiative-moduldiagnosen-implementationguide)) die ausführliche Nomenklatur SNOMED CT als erlaubtes Kodesystem ergänzt.
+In general, the proprietary German [OPS catalogs](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/) from DIMDI is used in the source systems of the participating university hospitals for coding procedures. As a roadmap for further development of the documentation, we have added (as in the [DIAGNOSIS](https://simplifier.net/guide/medizininformatikinitiative-moduldiagnosen-implementationguide) module) the SNOMED CT detailed nomenclature as a permitted code system.
 
-### Freitextbeschreibung
-Sofern in den Quelldokumentationen vorhanden, erlaubt das Informationsmodell des MII-Kerndatensatzes diese abzuspeichern und zu präsentieren.
-Für die ergänzende Kodierung können der OPS-Katalog und/oder SNOMED CT benutzt werden.
+### Free text description
+If available in the source documentation, the information model of the MII core data set allows free text descriptions of the procedure to be saved and presented.
+For supplementary coding, the OPS catalog and/or SNOMED CT can be used.
 
-### OPS Prozedur kodiert
+### OPS-coded procedures
 
 [{{render:ImplementationGuide-Common/images/ArtDecorOps.jpg}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
-Die führende Klassifikation und Nomenklatur für Operationen und sonstige Prozeduren (Eingriffe, Behandlungen, Untersuchungen) in Deutschland ist der Operationen- und Prozedurenschlüssel (OPS) vom DIMDI. <br> Der OPS ist eine fachgebietsübergreifende, monohierarchisch strukturierte, alphanumerische Klassifikation für Operationen und Prozeduren mit bis zu 6 Hierarchieebenen. 
-Die Systematik des OPS enthält in der aktuellen Fassung sechs Kapitel (1, 3, 5, 6, 8 und 9), die den Bereich aller kodierbaren medizinischen Maßnahmen abdecken. Aus historischen Gründen (Bezug zur ICPM) sind bei den Kapitelnummern Lücken; auch sind nicht alle vierstelligen Schlüsselnummern innerhalb der Kapitel belegt, die freien Stellen ermöglichen Erweiterungen.
+The leading classification and nomenclature for operations and other procedures (interventions, treatments, examinations) in Germany is the Operation and Procedure Code (OPS) from DIMDI. <br> The OPS is a multidisciplinary, monohierarchically structured, alphanumeric classification for operations and procedures with up to 6 hierarchical levels.
+The current version of the OPS system contains six chapters (1, 3, 5, 6, 8 and 9) covering the range of all codable medical measures. For historical reasons (reference to the ICPM), there are gaps in the chapter numbers; also, not all four-digit key numbers within the chapters are occupied; the vacant positions allow for extensions.
 
-Kapitel 5 Operationen ist topographisch-anatomisch gegliedert, Eingriffe sind also unter dem jeweiligen Organkapitel zu finden. Die übrigen Kapitel sind nach den Verfahren strukturiert.
+Chapter 5 Operations is structured topographically-anatomically, thus procedures are found under the respective organ chapter. The remaining chapters are structured according to the procedures.
 
 | Kap.-Nr. | Kode-Bereich | Klassentitel                            |
 |----------|--------------|-----------------------------------------|
-| 1        | 1-00... 1-99 | Diagnostische Maßnahmen                 |
-| 3        | 3-03... 3-99 | Bildgebende Diagnostik                  |
-| 5        | 5-01... 5-99 | Operationen                             |
-| 6        | 6-00... 6-00 | Medikamente                             |
-| 8        | 8-01... 8-99 | Nichtoperative therapeutische Maßnahmen |
-| 9        | 9-20... 9-99 | Ergänzende Maßnahmen                    |
+| 1        | 1-00... 1-99 | Diagnostic measures                     |
+| 3        | 3-03... 3-99 | Imaging diagnostics                     |
+| 5        | 5-01... 5-99 | Operations                              |
+| 6        | 6-00... 6-00 | Medication                              |
+| 8        | 8-01... 8-99 | Non-surgical therapeutic measures       |
+| 9        | 9-20... 9-99 | Supplementary measures                  |
 
-Bei der allgemeinen Kodierung müssen die ["Hinweise für die Benutzung"](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/zusatz-04-hinweise-zur-benutzung.htm) beachtet werden. Bei Kodierung für Abrechnungszwecke im stationären Bereich ist die Anwendung der [Deutschen Kodierrichtlinien (DKR und DKR-Psych) der Selbstverwaltungspartner](https://www.g-drg.de/G-DRG-System_2020/Kodierrichtlinien/Deutsche_Kodierrichtlinien_2020) erforderlich.
+For general coding, the ["Notes for use"](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/zusatz-04-hinweise-zur-benutzung.htm) must be respected. When coding for billing purposes in the inpatient area, the application of the [German Coding Guidelines (DKR and DKR-Psych) of the self-administration partners](https://www.g-drg.de/G-DRG-System_2020/Kodierrichtlinien/Deutsche_Kodierrichtlinien_2020) is required.
 
-#### Vollständiger Prozedurenkode
-Wie bei anderen Kodierungen auch genügt für die eindeutige Dokumention einer Prozedur nicht die Angabe eines Kodes.
-Unter dem *Vollständigen Prozedurenkode* versteht sich ein Tripel, welches den **OPS-Kode**, das entsprechende **Kodesystem** (= OPS-Katalog mit Gültigkeitsjahr) und den **Katalogtext** des Prozedurenkodes vereinigt. 
+#### Complete procedure code
+As with other codes, the specification of a code is not sufficient for the unambiguous documentation of a procedure.
+The *complete procedure code* is a triple that combines the **OPS code**, the corresponding **code system** (= OPS catalog with year of validity) and the **catalog text** of the procedure code.
 
-#### Seitenlokalisation
-Da der OPS keine präkoordinierten Seitenangaben enthält, wird diese in der Regel mit den Ausprägungen [Rechts, Links, Beidseits] gesondert dokumentiert, was in den Datensenken mit dem Informationsmodell des MII-Kerndatensatzes entsprechend berücksichtigt werden muss.
+#### Body site localization
+Since the OPS does not contain any pre-coordinated body-site information, this is usually documented separately with the characteristics [Right, Left, Both sides], which must be taken into account accordingly in the data sinks with the information model of the MII core data set.
 
 --- 
 
-### SNOMED Prozedur kodiert
+### SNOMED-coded procedure
 
 [{{render:ImplementationGuide-Common/images/ArtDecorSct.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
-Die Aufnahme der Nomenklatur SNOMED CT in den Kanon der Kodesysteme für Diagnosen, Prozeduren und weitere medizinische Entitäten folgt dem Beschluss des Nationalen Steuerungsgremium der MII, der Unterstützung durch das BMBF und den Zielen des BMG, die im [Referentenentwurf für das Patientendatenschutzgesetz](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Referentenentwurf_Patientendaten-Schutzgesetz__PDSG.pdf) dargestellt sind.
-Zur Zeit der Veröfffentlichung dieses ImplementationGuides wird SNOMED CT in Deutschland kaum benutzt. Die Aufnahme in den Kanon der Kodesysteme stellt also eher eine Wegmarke für eine international interoperable und besser mehrfach nutzbare Dokumentation dar, die bald erreicht werden soll.
+The inclusion of the SNOMED CT nomenclature in the canon of code systems for diagnoses, procedures, and other medical entities follows the decision of the National Steering Committee of the MII, the support of the BMBF, and the objectives of the BMG, which are presented in the [Referentenentwurf für das Patientendatenschutzgesetz](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Referentenentwurf_Patientendaten-Schutzgesetz__PDSG.pdf).
+At the time of publication of this ImplementationGuide, SNOMED CT is hardly used in Germany. The inclusion in the canon of code systems is therefore rather a milestone for an internationally interoperable and better multi-usable documentation, which is a gool soon to be achieved.
 
+#### Complete procedure code
+As with other code systems, complete composition is expected for SNOMED CT, although the SNOMED CT code is unique in itself.
+The *Complete Procedure Code* is understood to be a triple that combines the **SNOMED CT code**, the **Code System** SNOMED CT, where no version information is required because of its stability, and the **Preferred Name** of the code, as the catalog text is called here. 
 
-#### Vollständiger Prozedurenkode
-Wie bei anderen Kodesystemen wird auch bei SNOMED CT vollständige Komposition erwartet, obwohl der SNOMED-CT-Kode an sich schon eindeutig ist.
-Unter dem *Vollständigem Prozedurenkode* versteht sich ein Tripel, welches den **SNOMED-CT-Kode**, das **Kodesystem** SNOMED CT, bei dem wegen seiner Stabilität keine Orts- und Zeitangabe erforderlich ist und den **Präferierten Namen** des Kodes, wie der Katalogtext hier heißt, vereinigt. 
-
-Wegen der Präkoordination der Seitenangabe im multiaxialen SNOMED-CT-Kode ist ein gesondertes Merkmal Seitenlokalisation nicht erforderlich. Wohl aber ist eine gesonderte Übernahme der Angabe zu Körperstelle (Linkes Schulterblatt, Endglied des rechten Zeigefingers, Tikuspedalklappe) möglich und sinnvoll, wenn sie in einer Dokumentation vorhanden ist.
+Because of the precoordination of the side information in the multiaxial SNOMED CT code, a separate feature for side localization is not necessary. However, a separate transfer of the information on the body site (left scapula, end phalanx of the right index finger, ticus pedal valve) is possible and useful if it is available in a documentation.
 
 --- 
 
-#### Körperstelle
+#### Body-site
 
-Über die *Körperstelle* kann angegeben werden, in welchem Bereich des Körpers eine Prozedur durchgeführt wurde (Topographische Information). Die *Körperstelle* wurde bewusst aus *SNOMED Prozedur kodiert* ausgegliedert, damit auch bei einer Kodierung mittels OPS-Kode die Möglichkeit der Kodierung der Körperstelle besteht. Die Angabe der Körperstelle erfolgt dann zwar mittels SNOMED CT, erfordert aber keinen vollständigen SNOMED-CT-Prozeduren-Kode.
+The *body site* can be used to specify the area of the body in which a procedure was performed (topographical information). The *body site* was deliberately separated from *SNOMED procedure coded* so that it is also possible to code the body site when coding using an OPS code. The body site is then specified using SNOMED CT, but does not require a complete SNOMED CT procedure code.
 
 ---
 
-## **2. Ergänzende Aspekte**
+## **2. Additional notes**
 
-### **Zeitliche Zuordnung**
+### **Time association**
 
-####  Durchführungsdatum
+####  Execution date
 
-Die initiale Gestaltung des Moduls PROZEDUR beschränkt die zeitliche Zuordnung auf den Zeitpunkt, zu dem eine Prozedur durchgeführt wurde beziehungsweise begonnen worden ist.
+The initial design of the PROZEDUR module restricts the temporal assignment to the time at which a procedure was performed or started.
 
-####  Dokumentationsdatum
-Immer öfter werden Operationen und sonstige Prozeduren prozedurbegleitend dokumentiert. Die gesonderte Angabe eines Dokumentationsdatums erlaubt, Abweichungen davon festzuhalten.
+####  Documentation date
+More and more often, operations and other procedures are documented alongside the procedure. The separate specification of a documentation date allows deviations from this to be recorded.
