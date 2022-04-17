@@ -1,3 +1,3 @@
-## Technische Implementierung
+## Technical implementation 
 
-Diese Seite wurde absichtlich leer gelassen.
+This page was intentionally left blank.
