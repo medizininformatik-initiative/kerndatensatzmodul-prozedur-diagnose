@@ -1,22 +1,22 @@
-## Terminologien
+## Terminology
 
-| Hinweis |  |
+| Note |  |
 |---------|---------------------|
-| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Zusätzlich zu internationalen Terminologien werden durch das Modul PROZEDUR folgende ConceptMaps, ValueSets und CodeSystems definiert. Es sei drauf hingewiesen, dass alle CodeSystems auch ein implizites ValueSet enthalten, welches der jeweiligen FHIR CodeSystem-Ressource zu entnehmen ist.|
+| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Additionally to the international terminology used by the module PERSON, custom CodeSystems are defined by it. Please note that each CodesSystem also contains a corresponding implicit ValueSet. Please see the definition of the CodeSystem Resource for further deatils.|
 
 ----
 
 ### ConceptMaps
 
-Folgende ConceptMap bildet ein Mapping der OPS-Klassentitel auf SNOMED CT. Es sei zu beachten, dass SNOMED CT ansich keine "Resteklassen" bietet, sodass anstelle von "Other" passerende SNOMED CT Kodes verwendet werden können, sollten diese für "Ergänzende Maßnahmen" vorliegen. Desweiteren bezieht sich die OPS-Kodes für der Klasse 6 nicht auf die Gabe der Medikamente sondern auf die Medikamente ansich als eigenständiges Konzept. 
+The following ConceptMap represents a mapping of the OPS class titles to SNOMED CT. It should be noted that SNOMED CT itself does not offer "residual classes", so that instead of "Other" matching SNOMED CT codes can be used if these are available for "Supplementary measures". Furthermore, the OPS codes for class 6 do not refer to the administration of the medication but to the medication itself as a separate concept. 
 
-Siehe [SNOMED-CT / OPS Mapping - Deutsche Basisprofile](https://simplifier.net/guide/basisprofil-de-r4/Terminologie-ConceptMaps)
+See [SNOMED-CT / OPS Mapping - Deutsche Basisprofile](https://simplifier.net/guide/basisprofil-de-r4/Terminologie-ConceptMaps)
 
 ----
 
 ### ValueSets
 
-Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten. Zur Verwendung für Validationszwecke muss diese per FHIR-Terminologieserver erstellt werden.
+It should be noted that the following ValueSets do not include an expansion. To use them for validation purposes, they must be created by FHIR terminology server.
 
 | VS_MII_Prozedur_Durchfuehrungsabsicht_SNOMEDCT   |   |
 |--|--|
@@ -53,4 +53,4 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 
 ### CodeSystems
 
-Das CodeSystem mit der Canonical http://fhir.de/CodeSystem/dimdi/ops wird innerhalb des Moduls Prozedur, gemäß [Lizenzbedingungen DIMDI](https://www.dimdi.de/static/.downloads/deutsch/downloadbedhilfe.pdf), publiziert.
+The CodeSystem with the Canonical http://fhir.de/CodeSystem/dimdi/ops is published within the module Procedure, according to [License Conditions DIMDI](https://www.dimdi.de/static/.downloads/deutsch/downloadbedhilfe.pdf).The CodeSystem with the Canonical http://fhir.de/CodeSystem/dimdi/ops is published within the module Procedure, according to [License Conditions DIMDI](https://www.dimdi.de/static/.downloads/deutsch/downloadbedhilfe.pdf).
