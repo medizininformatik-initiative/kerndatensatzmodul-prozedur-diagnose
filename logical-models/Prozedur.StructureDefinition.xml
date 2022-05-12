@@ -1,7 +1,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="LogicalModelProzedur" />
   <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/LogicalModel/Prozedur" />
-  <version value="1.0" />
+  <version value="1.0.8" />
   <name value="LogicalModelProzedur" />
   <title value="LogicalModel - Prozedur" />
   <status value="active" />
