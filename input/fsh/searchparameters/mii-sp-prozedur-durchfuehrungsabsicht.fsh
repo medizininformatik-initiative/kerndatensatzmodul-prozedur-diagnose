@@ -12,4 +12,4 @@ Usage: #definition
 * code = #durchfuehrungsabsicht
 * base = #Procedure
 * type = #token
-* expression = "Patient.extension('https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht  ').value"
+* expression = "Procedure.extension('https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht  ').value"

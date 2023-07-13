@@ -18,11 +18,11 @@
   "status": "active",
   "experimental": false,
   "date": "2022-02-21",
-  "description": "Suchparameter für Patient.extension:Dokumentationsdatum",
+  "description": "Suchparameter für Procedure.extension:Dokumentationsdatum",
   "code": "dokumentationsdatum",
   "base": [
     "Procedure"
   ],
   "type": "date",
-  "expression": "Patient.extension('http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum').value"
+  "expression": "Procedure.extension('http://fhir.de/StructureDefinition/ProzedurDokumentationsdatum').value"
 }

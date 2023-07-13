@@ -12,4 +12,4 @@ Usage: #definition
 * code = #bodySite
 * base = #Procedure
 * type = #token
-* expression = "Patient.bodySite"
+* expression = "Procedure.bodySite"
