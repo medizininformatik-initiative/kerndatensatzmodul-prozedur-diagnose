@@ -1,0 +1,56 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MII_VS_Prozedur_OpsKategorien_SNOMEDCT",
+  "id": "mii-vs-prozedur-opskategorien-snomedct",
+  "title": "MII VS Prozedur OPS Kategorien [SNOMED CT]",
+  "description": "Enthaelt alle SNOMED CT Codes für ein Mapping der OPS Klassentitel",
+  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct",
+  "version": "2.0.0-ballot",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "date": "2020-09-18",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "103693007",
+            "display": "Diagnostic procedure"
+          },
+          {
+            "code": "363679005",
+            "display": "Imaging"
+          },
+          {
+            "code": "387713003",
+            "display": "Surgical procedure"
+          },
+          {
+            "code": "18629005",
+            "display": "Administration of medicine"
+          },
+          {
+            "code": "277132007",
+            "display": "Therapeutic procedure"
+          },
+          {
+            "code": "394841004",
+            "display": "Other category"
+          }
+        ]
+      }
+    ]
+  }
+}

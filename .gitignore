@@ -2,3 +2,6 @@
 /fhirpkg.lock.json
 /ModulProzedur.xlsx
 /.history/
+fsh-generated/includes
+.DS_Store
+fsh-generated/resources/ImplementationGuide-mii-ig-prozedur*

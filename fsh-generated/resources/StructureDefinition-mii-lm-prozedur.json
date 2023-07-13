@@ -1,0 +1,174 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "mii-lm-prozedur",
+  "url": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/LogicalModel/Prozedur",
+  "version": "2.0.0-ballot",
+  "name": "MII_LM_Prozedur",
+  "title": "MII LM Prozedur",
+  "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "description": "Logische Repräsentation des Basismoduls Prozedur",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/LogicalModel/Prozedur",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Prozedur",
+        "path": "Prozedur",
+        "short": "Das Basismodul Prozeduren umfasst die Beschreibung diagnostischer oder therapeutischer Maßnahmen, die als Leistungskomplexe auch für die Abrechnung dokumentiert und kodiert werden, z.B. Operationen.",
+        "definition": "Logische Repräsentation des Basismoduls Prozedur"
+      },
+      {
+        "id": "Prozedur.OPSProzedurKodiert",
+        "path": "Prozedur.OPSProzedurKodiert",
+        "short": "Kodierung der durchgeführten Prozedur mittels OPS.",
+        "definition": "Kodierung der durchgeführten Prozedur mittels OPS.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.OPSProzedurKodiert.VollstaendigerProzedurenkode",
+        "path": "Prozedur.OPSProzedurKodiert.VollstaendigerProzedurenkode",
+        "short": "Der vollständige Prozedurenkode: Tripel aus OPS-Kode, Kodesystem (inkl. Version!) und Katalogtext.",
+        "definition": "Der vollständige Prozedurenkode: Tripel aus OPS-Kode, Kodesystem (inkl. Version!) und Katalogtext.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.OPSProzedurKodiert.Seitenlokalisation",
+        "path": "Prozedur.OPSProzedurKodiert.Seitenlokalisation",
+        "short": "Seitenlokalisation für die durchgeführte Prozedur gemäß DIMDI",
+        "definition": "Seitenlokalisation für die durchgeführte Prozedur gemäß DIMDI",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.SNOMEDProzedurKodiert",
+        "path": "Prozedur.SNOMEDProzedurKodiert",
+        "short": "Kodierung der durchgeführten Prozedur mittels SNOMED CT.",
+        "definition": "Kodierung der durchgeführten Prozedur mittels SNOMED CT.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.SNOMEDProzedurKodiert.VollstaendigerProzedurenkode",
+        "path": "Prozedur.SNOMEDProzedurKodiert.VollstaendigerProzedurenkode",
+        "short": "Der vollständige Prozedurenkode: Tripel aus SNOMED-CT-Kode, Kodesystem (Version optional) und präferierten Namen",
+        "definition": "Der vollständige Prozedurenkode: Tripel aus SNOMED-CT-Kode, Kodesystem (Version optional) und präferierten Namen",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.Koerperstelle",
+        "path": "Prozedur.Koerperstelle",
+        "short": "Körperstelle der Prozedur mittels SNOMED CT inkl. Lateralität (R, L, B)",
+        "definition": "Körperstelle der Prozedur mittels SNOMED CT inkl. Lateralität (R, L, B)",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.Durchfuehrungsabsicht",
+        "path": "Prozedur.Durchfuehrungsabsicht",
+        "short": "Intention mit der die Prozedur durchgeführt wird.",
+        "definition": "Intention mit der die Prozedur durchgeführt wird.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.Durchfuehrungsdatum",
+        "path": "Prozedur.Durchfuehrungsdatum",
+        "short": "Das Datum ist der Zeitpunkt, an dem eine Prozedur durchgeführt wurde.",
+        "definition": "Das Datum ist der Zeitpunkt, an dem eine Prozedur durchgeführt wurde.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.Dokumentationsdatum",
+        "path": "Prozedur.Dokumentationsdatum",
+        "short": "Das Datum ist der Zeitpunkt, an dem eine Prozedur dokumentiert wurde.",
+        "definition": "Das Datum ist der Zeitpunkt, an dem eine Prozedur dokumentiert wurde.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "Prozedur.Freitextbeschreibung",
+        "path": "Prozedur.Freitextbeschreibung",
+        "short": "Freitextbeschreibung der durchgeführten Prozedur",
+        "definition": "Freitextbeschreibung der durchgeführten Prozedur",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}
