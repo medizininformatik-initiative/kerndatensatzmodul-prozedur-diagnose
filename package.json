@@ -1,15 +1,34 @@
 {
   "name": "de.medizininformatikinitiative.kerndatensatz.prozedur",
-  "version": "1.0.7",
+  "version": "2024.0.0",
   "description": "Medizininformatik Initiative - Modul Prozedur",
-  "devDependencies": null,
-  "canonicals": null,
   "author": "alexanderzautke",
   "fhirVersions": [
     "4.0.1"
   ],
+  "keywords": [
+    "MII",
+    "KDS",
+    "Prozedur",
+    "Procedure"
+  ],
+  "license": "CC0-1.0",
+  "homepage": "https://www.medizininformatik-initiative.de/",
+  "directories" : {
+    "lib" : "package",
+    "example" : "examples"
+  },
+  "title": "MII IG Prozedur",
+  "maintainers" : [
+    {
+      "name" : "Medizininformatik Initiative",
+      "url" : "https://www.medizininformatik-initiative.de/"
+    }
+  ],
+  "canonicals": "https://www.medizininformatik-initiative.de/fhir/core/modul-person/ImplementationGuide/mii-ig-prozedur-de-v2024",
+  "jurisdiction": "http://unstats.un.org/unsd/methods/m49/m49.htm#276",
   "dependencies": {
-    "de.basisprofil.r4": "1.3.2",
+    "de.basisprofil.r4": "1.4.0",
     "de.medizininformatikinitiative.kerndatensatz.meta": "1.0.3"
   }
 }
