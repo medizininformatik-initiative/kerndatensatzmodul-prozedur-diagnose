@@ -1,9 +1,5 @@
 # Kerndatensatz Modul Prozedur
 
-| Hinweis | Under Construction! |
-|---------|---------------------|
-| {{render:implementation-guides/ImplementationGuide-Common/images/Warning.jpg}} | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Prozedur' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
-
 Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Moduls 'Prozedur' im Kerndatensatz der Medizininformatik-Initiative. 
 
 Im Folgenden werden die Use-Cases des Moduls, sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
