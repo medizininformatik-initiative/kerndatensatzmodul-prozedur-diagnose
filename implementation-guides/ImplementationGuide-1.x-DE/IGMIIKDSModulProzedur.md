@@ -2,7 +2,7 @@
 
 | Hinweis | Under Construction! |
 |---------|---------------------|
-| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Prozedur' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
+| {{render:implementation-guides/ImplementationGuide-Common/images/Warning.jpg}} | Dieser Implementation Guide stellt die aktuelle Arbeitsversion des Moduls 'Prozedur' dar. Die jeweils für den produktiven Einsatz veröffentlichte Version finden Sie auf [dieser Seite der Medizininformatik-Initiative](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Prozeduren/IGMIIKDSModulProzedur.html).|
 
 Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Moduls 'Prozedur' im Kerndatensatz der Medizininformatik-Initiative. 
 
@@ -28,7 +28,7 @@ Dieser Leitfaden ist im Rahmen der Medizininformatik-Initative erstellt wurden u
 * Karoline Buckow, TMF – Technologie- und Methodenplattform
 für die vernetzte medizinische Forschung e.V.
 
-Fragen zu der vorliegenden Publikation können jederzeit unter [chat.fhir.org](chat.fhir.org) im Stream 'german/mi-initiative' gestellt werden.
+Fragen zu der vorliegenden Publikation können jederzeit unter [chat.fhir.org](https://chat.fhir.org) im Stream 'german/mi-initiative' gestellt werden.
 
 Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier-Projekt stets gern entgegengenommen.
 

@@ -2,7 +2,7 @@
 
 | Hinweis |  |
 |---------|---------------------|
-| {{render:ImplementationGuide-Common/images/Warning.jpg}} | Zusätzlich zu internationalen Terminologien werden durch das Modul PROZEDUR folgende ConceptMaps, ValueSets und CodeSystems definiert. Es sei drauf hingewiesen, dass alle CodeSystems auch ein implizites ValueSet enthalten, welches der jeweiligen FHIR CodeSystem-Ressource zu entnehmen ist.|
+| {{render:implementation-guides/ImplementationGuide-Common/images/Warning.jpg}} | Zusätzlich zu internationalen Terminologien werden durch das Modul PROZEDUR folgende ConceptMaps, ValueSets und CodeSystems definiert. Es sei drauf hingewiesen, dass alle CodeSystems auch ein implizites ValueSet enthalten, welches der jeweiligen FHIR CodeSystem-Ressource zu entnehmen ist.|
 
 ----
 
