@@ -3,7 +3,7 @@ parent:
 ---
 ## **Description Module PROCEDURE**
 
-{{render:implementation-guides/ImplementationGuide-Common/images/5_Abbildung_Prozedur_en.jpg}}
+{{render:implementation-guides/ImplementationGuide-Common/images/6_Abbilding_Prozedur_en.jpg}}
 
 ---
 

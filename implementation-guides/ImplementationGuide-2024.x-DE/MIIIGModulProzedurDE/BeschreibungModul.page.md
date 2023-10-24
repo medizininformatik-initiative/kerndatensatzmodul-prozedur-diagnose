@@ -1,6 +1,6 @@
 ## **Beschreibung Modul PROZEDUR**
 
-{{render:implementation-guides/ImplementationGuide-Common/images/5_Abbildung_Prozedur_de.jpg}}
+{{render:implementation-guides/ImplementationGuide-Common/images/5_Abbilding_Prozedur_de.jpg}}
 
 ---
 
