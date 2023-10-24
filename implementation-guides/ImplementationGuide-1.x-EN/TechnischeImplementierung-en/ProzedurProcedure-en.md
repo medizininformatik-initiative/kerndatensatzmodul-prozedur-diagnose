@@ -27,7 +27,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 | Procedure.status      | No restrictions regarding the selected status|
 | Procedure.category             | Mandatory SNOMED CT categorization based on procedure code. See {{pagelink:ImplementationGuide-2.x-en/TechnicalImplementation-en/Terminology-en.md}} for a mapping from OPS class title to SNOMED CT. Only relevant if the procedure is coded per OPS, see proc-mii-1        |
 |  Procedure.code            |   Mandatory coding either per OPS or SNOMED. Further coding permitted.       |
-|  Procedure.code:ops            |   See [OPS-Kodierung - German Base Profiles](https://simplifier.net/guide/basisprofil-de-r4/Ressourcen-Procedure-OPS)       |
+|  Procedure.code:ops            |   See [OPS-Kodierung - German Base Profiles](https://ig.fhir.de/basisprofile-de/stable/Ressourcen-Procedure-OPS.html)       |
 | Procedure.performed\[x\] | Beside the specification as dateTime also a Period can be specified (if start and end time are known)|
 | Procedure.bodySite           | Detailed coding of the body site(s) of the procedure. Should NOT be used to map the laterality of the procedure. This is a property of the code. See Procedure.code:ops |
 | Procedure.note | Free text information about the procedure|
