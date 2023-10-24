@@ -1,6 +1,6 @@
 ## **Beschreibung Modul PROZEDUR**
 
-{{render:ImplementationGuide-Common/images/ModulProzedur.jpg}}
+{{render:implementation-guides/ImplementationGuide-Common/images/5_Abbildung_Prozedur_de.jpg}}
 
 ---
 
@@ -22,7 +22,7 @@ Aus historischen und abrechnungstechnischen Gründen (Zusatzentgelte) zählen in
 
 Das Modul sieht folgende Merkmale einer Prozedur vor, die zur automatisierten Verarbeitung der Prozedureninformationen benötigt werden: 
 
-[{{render:ImplementationGuide-Common/images/ArtDecorProzedur.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:implementation-guides/ImplementationGuide-Common/images/ArtDecorProzedur.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 ---
 
@@ -47,7 +47,7 @@ Für die ergänzende Kodierung können der OPS-Katalog und/oder SNOMED CT benutz
 
 ### OPS Prozedur kodiert
 
-[{{render:ImplementationGuide-Common/images/ArtDecorOps.jpg}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:implementation-guides/ImplementationGuide-Common/images/ArtDecorOps.jpg}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 Die führende Klassifikation und Nomenklatur für Operationen und sonstige Prozeduren (Eingriffe, Behandlungen, Untersuchungen) in Deutschland ist der Operationen- und Prozedurenschlüssel (OPS) vom DIMDI. <br> Der OPS ist eine fachgebietsübergreifende, monohierarchisch strukturierte, alphanumerische Klassifikation für Operationen und Prozeduren mit bis zu 6 Hierarchieebenen. 
 Die Systematik des OPS enthält in der aktuellen Fassung sechs Kapitel (1, 3, 5, 6, 8 und 9), die den Bereich aller kodierbaren medizinischen Maßnahmen abdecken. Aus historischen Gründen (Bezug zur ICPM) sind bei den Kapitelnummern Lücken; auch sind nicht alle vierstelligen Schlüsselnummern innerhalb der Kapitel belegt, die freien Stellen ermöglichen Erweiterungen.
@@ -76,7 +76,7 @@ Da der OPS keine präkoordinierten Seitenangaben enthält, wird diese in der Reg
 
 ### SNOMED Prozedur kodiert
 
-[{{render:ImplementationGuide-Common/images/ArtDecorSct.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:implementation-guides/ImplementationGuide-Common/images/ArtDecorSct.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 Die Aufnahme der Nomenklatur SNOMED CT in den Kanon der Kodesysteme für Diagnosen, Prozeduren und weitere medizinische Entitäten folgt dem Beschluss des Nationalen Steuerungsgremium der MII, der Unterstützung durch das BMBF und den Zielen des BMG, die im [Referentenentwurf für das Patientendatenschutzgesetz](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Referentenentwurf_Patientendaten-Schutzgesetz__PDSG.pdf) dargestellt sind.
 Zur Zeit der Veröfffentlichung dieses ImplementationGuides wird SNOMED CT in Deutschland kaum benutzt. Die Aufnahme in den Kanon der Kodesysteme stellt also eher eine Wegmarke für eine international interoperable und besser mehrfach nutzbare Dokumentation dar, die bald erreicht werden soll.
