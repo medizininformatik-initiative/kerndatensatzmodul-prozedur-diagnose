@@ -10,7 +10,7 @@
 
 Folgende ConceptMap bildet ein Mapping der OPS-Klassentitel auf SNOMED CT. Es sei zu beachten, dass SNOMED CT ansich keine "Resteklassen" bietet, sodass anstelle von "Other" passerende SNOMED CT Kodes verwendet werden können, sollten diese für "Ergänzende Maßnahmen" vorliegen. Desweiteren bezieht sich die OPS-Kodes für der Klasse 6 nicht auf die Gabe der Medikamente sondern auf die Medikamente ansich als eigenständiges Konzept. 
 
-Siehe [SNOMED-CT / OPS Mapping - Deutsche Basisprofile](https://simplifier.net/guide/basisprofil-de-r4/Terminologie-ConceptMaps)
+{{render:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ConceptMap/OPS-SNOMED-Category}}
 
 ----
 
