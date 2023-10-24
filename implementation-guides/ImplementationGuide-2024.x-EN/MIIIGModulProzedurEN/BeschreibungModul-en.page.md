@@ -3,7 +3,7 @@ parent:
 ---
 ## **Description Module PROCEDURE**
 
-{{render:ImplementationGuide-Common/images/ModulProzedur.jpg}}
+{{render:implementation-guides/ImplementationGuide-Common/images/5_Abbildung_Prozedur_en.jpg}}
 
 ---
 
@@ -25,7 +25,7 @@ For historical and billing reasons (additional charges), selected expensive drug
 
 The module provides for the following characteristics of a procedure, which are needed for automated processing of the procedure information:
 
-[{{render:ImplementationGuide-Common/images/ArtDecorProzedur.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:implementation-guides/ImplementationGuide-Common/images/ArtDecorProzedur.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 ---
 
@@ -50,7 +50,7 @@ For supplementary coding, the OPS catalog and/or SNOMED CT can be used.
 
 ### OPS-coded procedures
 
-[{{render:ImplementationGuide-Common/images/ArtDecorOps.jpg}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:implementation-guides/ImplementationGuide-Common/images/ArtDecorOps.jpg}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 The leading classification and nomenclature for operations and other procedures (interventions, treatments, examinations) in Germany is the Operation and Procedure Code (OPS) from DIMDI. <br> The OPS is a multidisciplinary, monohierarchically structured, alphanumeric classification for operations and procedures with up to 6 hierarchical levels.
 The current version of the OPS system contains six chapters (1, 3, 5, 6, 8 and 9) covering the range of all codable medical measures. For historical reasons (reference to the ICPM), there are gaps in the chapter numbers; also, not all four-digit key numbers within the chapters are occupied; the vacant positions allow for extensions.
@@ -79,7 +79,7 @@ Since the OPS does not contain any pre-coordinated body-site information, this i
 
 ### SNOMED-coded procedure
 
-[{{render:ImplementationGuide-Common/images/ArtDecorSct.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
+[{{render:implementation-guides/ImplementationGuide-Common/images/ArtDecorSct.png}}](https://art-decor.org/art-decor/decor-datasets--mide-?id=&effectiveDate=&conceptId=&conceptEffectiveDate=)
 
 The inclusion of the SNOMED CT nomenclature in the canon of code systems for diagnoses, procedures, and other medical entities follows the decision of the National Steering Committee of the MII, the support of the BMBF, and the objectives of the BMG, which are presented in the [Referentenentwurf für das Patientendatenschutzgesetz](https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/P/Referentenentwurf_Patientendaten-Schutzgesetz__PDSG.pdf).
 At the time of publication of this ImplementationGuide, SNOMED CT is hardly used in Germany. The inclusion in the canon of code systems is therefore rather a milestone for an internationally interoperable and better multi-usable documentation, which is a gool soon to be achieved.

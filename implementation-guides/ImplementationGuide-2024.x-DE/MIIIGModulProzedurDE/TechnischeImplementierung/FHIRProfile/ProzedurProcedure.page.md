@@ -1,3 +1,9 @@
+---
+parent: 
+topic: ProzedurProcedure
+subject: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+---
+
 ### Prozedur (Procedure)
 
 ---
@@ -25,9 +31,9 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 | Procedure.id      | Must-support, jedoch optional        |
 | Procedure.meta      | Must-support, jedoch optional       |
 | Procedure.status      | Keine Einschränkungen bezüglich des gewählten Status|
-| Procedure.category             | Verpflichtende SNOMED CT Kategorisierung auf Basis des Prozedurenkodes. Siehe {{pagelink:ImplementationGuide-2.x/TechnischeImplementierung/Terminologie.md}} für ein Mapping von OPS Klassentitel auf SNOMED CT. Nur relevant falls die Prozedur per OPS kodiert wird, siehe proc-mii-1        |
+| Procedure.category             | Verpflichtende SNOMED CT Kategorisierung auf Basis des Prozedurenkodes. Siehe {{pagelink:Terminologien}} für ein Mapping von OPS Klassentitel auf SNOMED CT. Nur relevant falls die Prozedur per OPS kodiert wird, siehe proc-mii-1        |
 |  Procedure.code            |   Verpflichtende Kodierung entweder per OPS oder SNOMED. Weitere Kodierungen erlaubt.       |
-|  Procedure.code:ops            |   Siehe [OPS-Kodierung - Deutsche Basisprofile](https://simplifier.net/guide/basisprofil-de-r4/Ressourcen-Procedure-OPS)       |
+|  Procedure.code:ops            |   Siehe [OPS-Kodierung - Deutsche Basisprofile](https://ig.fhir.de/basisprofile-de/1.4.0/Ressourcen-ProzedurenProcedure.html#Ressourcen-Procedure-OPS)       |
 | Procedure.performed\[x\] | Neben der Angabe als dateTime kann auch eine Period angegeben werden (falls Start- und Endzeitpunkt bekannt sind)|
 | Procedure.bodySite           | Detaillierte Kodierung der Körperstelle(n) der Prozedur. Sollte NICHT verwendet werden um die Lateralität der Prozedur abzubilden. Dies ist eine Eigenschaft des Kodes. Siehe Procedure.code:ops |
 | Procedure.note | Freitextangaben zur Prozedur|
@@ -186,5 +192,5 @@ Folgende Suchparameter sind für das Modul Person relevant, auch in Kombination:
 
 Beispiel (minimal):
 
-{{json:beispiele/Example-Procedure.json}}
+{{json:beispiele/mii-exa-prozedur-procedure}}
 
