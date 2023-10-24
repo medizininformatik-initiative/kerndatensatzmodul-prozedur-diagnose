@@ -4,8 +4,8 @@ In order to enable decentralized data evaluation using the German Research Data 
 
 The following section displays the elements which MUST be present in the CapabilityStatement. In addition, conformance to the following CapabilityStatement SHALL be specified in the respective CapabilityStatement instance at [``CapabilityStatement.instantiates``](https://www.hl7.org/fhir/capabilitystatement-definitions.html#CapabilityStatement.instantiates).
 
-Canonical: ```https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata```
-
-[Link Simplifier Profil Overview](https://simplifier.net/resolve?canonical=https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.pro@2.0.0-alpha4)
+@```
+from CapabilityStatement where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata' select Name: name, Canonical: url
+```
 
 {{render:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata}}
