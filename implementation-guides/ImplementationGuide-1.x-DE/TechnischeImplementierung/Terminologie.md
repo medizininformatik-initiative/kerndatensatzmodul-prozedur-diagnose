@@ -23,7 +23,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend  |
 |Simplifier Link| [ValueSet](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2.0.0-alpha4)|
-| Binding | ([required](http://hl7.org/fhir/terminologies.html#required)) {{pagelink:ImplementationGuide-2.x/TechnischeImplementierung/ProzedurProcedure.md, text:Procedure.extension:Durchfuehrungsabsicht.value}}|
+| Binding | ([required](http://hl7.org/fhir/terminologies.html#required)) {{pagelink:implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/ProzedurProcedure.md, text:Procedure.extension:Durchfuehrungsabsicht.value}}|
 
 {{render:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-intend}}
 
@@ -34,7 +34,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct  |
 |Simplifier Link| [ValueSet](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2.0.0-alpha4)|
-| Binding | ([required](http://hl7.org/fhir/terminologies.html#required)) {{pagelink:ImplementationGuide-2.x/TechnischeImplementierung/ProzedurProcedure.md, text:Procedure.category}}|
+| Binding | ([required](http://hl7.org/fhir/terminologies.html#required)) {{pagelink:implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/ProzedurProcedure.md, text:Procedure.category}}|
 
 {{render:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-category-sct}}
 
@@ -45,7 +45,7 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 |Canonical CodeSystem | http://snomed.info/sct  |
 |Canonical ValueSet | https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct  |
 |Simplifier Link| [ValueSet](https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct&fhirVersion=R4&scope=de.medizininformatikinitiative.kerndatensatz.prozedur@2.0.0-alpha4)|
-| Binding | ([required](http://hl7.org/fhir/terminologies.html#required)) {{pagelink:ImplementationGuide-2.x/TechnischeImplementierung/ProzedurProcedure.md, text:Procedure.code}}|
+| Binding | ([required](http://hl7.org/fhir/terminologies.html#required)) {{pagelink:implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/ProzedurProcedure.md, text:Procedure.code}}|
 
 {{render:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ValueSet/procedures-sct}}
 
