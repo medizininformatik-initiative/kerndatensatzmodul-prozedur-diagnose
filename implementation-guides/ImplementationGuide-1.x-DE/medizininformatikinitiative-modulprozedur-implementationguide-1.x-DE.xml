@@ -1,0 +1,76 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="mii-ig-prozedur-de-1" />
+  <url value="https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/ImplementationGuide/mii-ig-prozedur-de-1" />
+  <version value="1.0.4" />
+  <name value="[DE] Modul Prozedur - Version 1.0 - IG" />
+  <status value="active" />
+  <description value="[DE] Modul Prozedur - Version 1.0 - IG" />
+  <fhirVersion value="4.0.1" />
+  <definition>
+    <page>
+      <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/IGMIIKDSModulProzedur.md" />
+      <title value="IG MII KDS Modul Prozedur" />
+      <generation value="markdown" />
+      <page>
+        <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/BeschreibungModul.md" />
+        <title value="Beschreibung Modul" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/KontextimGesamtprojektBezgezuanderenModulen.md" />
+        <title value="Kontext im Gesamtprojekt / Bezüge zu anderen Modulen" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/Referenzen.md" />
+        <title value="Referenzen" />
+        <generation value="markdown" />
+      </page>
+      <page>
+        <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/AnwendungsflleInformationsmodell.md" />
+        <title value="Anwendungsfälle / Informationsmodell" />
+        <generation value="markdown" />
+        <page>
+          <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/BeschreibungvonSzenarienfrdieAnwendungderModule.md" />
+          <title value="Beschreibung von Szenarien für die Anwendung der Module" />
+          <generation value="markdown" />
+        </page>
+        <page>
+          <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/Datenstzeinkl.Beschreibungen.md" />
+          <title value="Datensätze inkl. Beschreibungen" />
+          <generation value="markdown" />
+        </page>
+        <page>
+          <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/UML.md" />
+          <title value="UML" />
+          <generation value="markdown" />
+        </page>
+      </page>
+      <page>
+        <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/TechnischeImplementierung.md" />
+        <title value="Technische Implementierung" />
+        <generation value="markdown" />
+        <page>
+          <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/FHIR-Profile.md" />
+          <title value="FHIR-Profile" />
+          <generation value="markdown" />
+          <page>
+            <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/ProzedurProcedure.md" />
+            <title value="Prozedur (Procedure)" />
+            <generation value="markdown" />
+          </page>
+        </page>
+        <page>
+          <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/CapabilityStatement.md" />
+          <title value="CapabilityStatement" />
+          <generation value="markdown" />
+        </page>
+        <page>
+          <nameUrl value="implementation-guides/ImplementationGuide-1.x-DE/TechnischeImplementierung/Terminologie.md" />
+          <title value="Terminologien" />
+          <generation value="markdown" />
+        </page>
+      </page>
+    </page>
+  </definition>
+</ImplementationGuide>
