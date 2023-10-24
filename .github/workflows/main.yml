@@ -42,7 +42,7 @@ jobs:
       - name: Firely.Terminal (GitHub Actions)
         uses: FirelyTeam/firely-terminal-pipeline@v0.4.0
         with:
-          PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile extensions terminologie/ValueSet terminologie/CodeSystem logical-models
+          PATH_TO_CONFORMANCE_RESOURCES: ressourcen-profile extensions terminologie/ValueSet logical-models # Exclude terminologie/CodeSystem due to the size of the OPS CodeSystems
           PATH_TO_EXAMPLES: beispiele
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
@@ -51,4 +51,4 @@ jobs:
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
           JAVA_VALIDATOR_VERSION: 6.1.16
           JAVA_VALIDATION_OPTIONS: -allow-example-urls true -best-practice ignore
-          EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA VALIDATION_EXAMPLES_JAVA VALIDATION_CONFORMANCE_DOTNET
+          EXPECTED_FAILS: VALIDATION_CONFORMANCE_DOTNET
