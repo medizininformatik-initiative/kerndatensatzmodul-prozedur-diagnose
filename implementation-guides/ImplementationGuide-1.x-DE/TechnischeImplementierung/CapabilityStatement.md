@@ -4,7 +4,6 @@ Um eine dezentrale Datenauswertung mittel des Deutsche Forschungsdatenportal fü
 
 Nachfolgend wird aufgelistet weleche Inhalte verpflichtend im CapabilityStatement angegeben werden MÜSSEN. Darüber hinaus MUSS eine Konformität zu dem nachfolgenden CapabilityStatement in der jeweiligen CapabilityStatement Instanz unter [```CapabilityStatement.instantiates```](https://www.hl7.org/fhir/capabilitystatement-definitions.html#CapabilityStatement.instantiates) angegeben werden.
 
-Canonical: ```https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata```
 
 @```
 from CapabilityStatement where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata' select Name: name, Canonical: url
