@@ -2,31 +2,66 @@
 parent: 
 topic: ProzedurProcedure
 subject: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+canonical: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+expand: 1
 ---
 
 ### Procedure (Procedure)
 
 ---
 
+## {{link}}
+
 **Description**
 
 This profile describes a procedure in the Medical Informatics Initiative.
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' select Name: name, Canonical: url
+from 
+    StructureDefinition 
+where 
+    url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' 
+select 
+    Name: name, Status: status, Version: version, Canonical: url, Base: baseDefinition
 ```
 
----
+### Content
 
-**Differential**
-
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure, diff}}
+<tabs>
+  <tab title="Visualization">{{tree, buttons}}</tab>
+  <tab title="Description"> 
+        @```
+        from
+	        StructureDefinition
+        where
+	        url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure'
+        select
+	        Beschreibung: description
+        with
+            no header
+        ```
+        @```
+        from 
+            StructureDefinition 
+        where 
+            url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' 
+        for 
+            differential.element 
+            where 
+                mustSupport = true 
+            select Feldname: id, Kurzbeschreibung: short, Hinweise: comment
+        ```
+  </tab>
+  <tab title="XML">{{xml}}</tab>
+  <tab title="JSON">{{json}}</tab>
+  <tab title="Link">{{link}}</tab>
+</tabs>
 
 ---
 
 **Notes**
 
-| FHIR-Element | Erklärung |
+| FHIR-Element | Description |
 |--------------|-----------|
 | Procedure.id      | Must-support, but optional        |
 | Procedure.meta      | Must-support, but optional       |
@@ -42,7 +77,7 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 
 **Mapping**
 
-| FHIR Element | Logischer Datensatz |
+| FHIR Element | Logical Dataset |
 |--------------|-----------|
 | Procedure.code:ops        | Prozedur.OPSProzedurKodiert         |
 | Procedure.code:ops.coding.code        | Prozedur.OPSProzedurKodiert.VollständigerProzedurenkode (Kode)        |
@@ -85,12 +120,6 @@ join binding.where(valueSet.exists())
   URL: valueSet
 }
 ```
-
----
-
-**Snapshot**
-
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure, snapshot}}
 
 ---
 
@@ -192,5 +221,6 @@ The following SearchParameters are relevant for the module Person, also in combi
 
 Example (minimal):
 
-{{json:beispiele/Example-Procedure.json}}
+{{json:mii-exa-prozedur-procedure}}
 
+--- 
