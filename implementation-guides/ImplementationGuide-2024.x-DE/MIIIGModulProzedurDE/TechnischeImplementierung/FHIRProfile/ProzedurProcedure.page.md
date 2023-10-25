@@ -2,25 +2,60 @@
 parent: 
 topic: ProzedurProcedure
 subject: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+canonical: https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure
+expand: 1
 ---
 
 ### Prozedur (Procedure)
 
 ---
 
+## {{link}}
+
 **Beschreibung**
 
 Dieses Profil beschreibt eine Prozedur in der Medizininformatik-Initiative.
 
 @```
-from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' select Name: name, Canonical: url
+from 
+    StructureDefinition 
+where 
+    url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' 
+select 
+    Name: name, Status: status, Version: version, Canonical: url, Basis: baseDefinition
 ```
 
----
+### Inhalt
 
-**Differential**
-
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure, diff}}
+<tabs>
+  <tab title="Darstellung">{{tree, buttons}}</tab>
+  <tab title="Beschreibung"> 
+        @```
+        from
+	        StructureDefinition
+        where
+	        url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure'
+        select
+	        Beschreibung: description
+        with
+            no header
+        ```
+        @```
+        from 
+            StructureDefinition 
+        where 
+            url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' 
+        for 
+            differential.element 
+            where 
+                mustSupport = true 
+            select Feldname: id, Kurzbeschreibung: short, Hinweise: comment
+        ```
+  </tab>
+  <tab title="XML">{{xml}}</tab>
+  <tab title="JSON">{{json}}</tab>
+  <tab title="Link">{{link}}</tab>
+</tabs>
 
 ---
 
@@ -58,7 +93,6 @@ from StructureDefinition where url = 'https://www.medizininformatik-initiative.d
 | Procedure.extension.Dokumentationsdatum        | Prozedur.Dokumentationsdatum         |
 | Procedure.extension.durchfuehrungsabsicht        | Prozedur.Durchfuehrungsabsicht         |
 
-
 ---
 
 **Constraints**
@@ -85,12 +119,6 @@ join binding.where(valueSet.exists())
   URL: valueSet
 }
 ```
-
----
-
-**Snapshot**
-
-{{tree:https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure, snapshot}}
 
 ---
 
@@ -192,5 +220,6 @@ Folgende Suchparameter sind für das Modul Person relevant, auch in Kombination:
 
 Beispiel (minimal):
 
-{{json:beispiele/mii-exa-prozedur-procedure}}
+{{json:mii-exa-prozedur-procedure}}
 
+---
