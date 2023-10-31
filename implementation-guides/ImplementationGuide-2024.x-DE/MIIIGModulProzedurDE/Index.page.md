@@ -10,8 +10,8 @@ Im Folgenden werden die Use-Cases des Moduls, sowie die dazugehörigen FHIR-Prof
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   | 24.10.2023  |
-| Version | 2024.0.0    |
+| Datum   | 31.10.2023  |
+| Version | 2.0.0-ballot (2024.0.0-ballot)    |
 | Status  | Active      |
 | Realm   | DE          | 
 
@@ -23,8 +23,8 @@ Im Folgenden werden die Use-Cases des Moduls, sowie die dazugehörigen FHIR-Prof
 Dieser Leitfaden ist im Rahmen der Medizininformatik-Initative erstellt wurden und unterliegt per Governance-Prozess dem Abstimmungsverfahren des Interoperabilitätsforums und der Technischen Komitees von HL7 Deutschland e. V.
 
 ## Ansprechpartner
-* Josef Schepers, Berlin Institute of Health (BIH)
-* Andrea Essenwanger, Berlin Institute of Health (BIH)
+* Sylvia Thun, Berlin Institute of Health at Charité (BIH)
+* Julian Saß, Berlin Institute of Health at Charité (BIH)
 * Karoline Buckow, TMF – Technologie- und Methodenplattform
 für die vernetzte medizinische Forschung e.V.
 
