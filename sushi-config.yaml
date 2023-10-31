@@ -3,7 +3,7 @@ fhirVersion: 4.0.1
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 status: active
-version: 2024.0.0
+version: 2024.0.0-ballot
 id: mii-ig-prozedur-de-2
 name: MII_IG_Prozedur_DE
 packageId: de.medizininformatikinitiative.kerndatensatz.prozedur

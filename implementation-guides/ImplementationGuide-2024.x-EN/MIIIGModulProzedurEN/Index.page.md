@@ -12,8 +12,8 @@ In the following, the use cases of the module as well as the associated FHIR pro
 
 | Release   |   |
 |---------|---|
-| Datum   | 24.10.2023  |
-| Version | 2024.0.0    |
+| Datum   | 31.10.2023  |
+| Version | 2.0.0-ballot (2024.0.0-ballot)    |
 | Status  | Active      |
 | Realm   | DE          | 
 
@@ -26,8 +26,8 @@ In the following, the use cases of the module as well as the associated FHIR pro
 This guide has been produced as part of the Medical Informatics Initiative and is subject to the voting procedure of the Interoperabilitätsforum and the Technical Committees of HL7 Deutschland e. V. per governance process.
 
 ## Contact
-* Josef Schepers, Berlin Institute of Health (BIH)
-* Andrea Essenwanger, Berlin Institute of Health (BIH)
+* Sylvia Thun, Berlin Institute of Health at Charité (BIH)
+* Julian Saß, Berlin Institute of Health at Charité (BIH)
 * Karoline Buckow, TMF – Technologie- und Methodenplattform
 für die vernetzte medizinische Forschung e.V.
 
