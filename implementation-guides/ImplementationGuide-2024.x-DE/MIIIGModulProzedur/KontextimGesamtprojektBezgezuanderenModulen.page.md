@@ -11,11 +11,11 @@ Perspektivisch sind Prozedurenangaben von hoher Bedeutung für eine Vielzahl von
 ### Bezüge zu anderen Modulen
 
 
-Ähnlich wie das Modul DIAGNOSE ist das Modul PROZEDUR im MII-Kerndatensatz primär mit dem Modul [PERSON](https://simplifier.net/guide/medizininformatikinitiative-modulperson-implementationguide/igmiikdsmodulperson) verknüpft. 
+Ähnlich wie das Modul DIAGNOSE ist das Modul PROZEDUR im MII-Kerndatensatz primär mit dem Modul [PERSON](https://simplifier.net/mii-basismodul-person-2024) verknüpft. 
 Abgesehen davon, dass per se fast alle Prozeduren einen Leistungserbringer erfordern, stammen natürlich praktische alle Prozedurenangaben von Leistungserbringern, bei denen die prozedural untersuchten oder behandelten Personen Patienten und Fälle sind.
 Dies wird durch eine Versorgungsfall-Prozedur-Relation ausgedrückt, die nicht im ART-Decor-Modell dargestellt ist, aber im FHIR-Profil implementiert wird.
 
-Es sei drauf verwiesen, dass das Modul [Medikation](https://simplifier.net/guide/medizininformatikinitiative-modulmedikation-implementationguide) als auch das Modul [Fall](https://simplifier.net/guide/MedizininformatikInitiative-ModulFall-ImplementationGuide) Referenzen auf dieses Modul besitzen. Erläuterungen hierzu finden sich im jeweiligen Modul.
+Es sei drauf verwiesen, dass das Modul [MEDIKATION](https://simplifier.net/mii-basismodul-medikation-2024) als auch das Modul [FALL](https://simplifier.net/medizininformatikinitiative-modulfall) Referenzen auf dieses Modul besitzen. Erläuterungen hierzu finden sich im jeweiligen Modul.
 
 ### Zurückgestellte Beziehungen zu anderen Modulen
 

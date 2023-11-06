@@ -26,7 +26,7 @@ Das Modul sieht folgende Merkmale einer Prozedur vor, die zur automatisierten Ve
 
 ---
 
-Eine Prozedur ist „eine Aktion, die an oder für einen Patienten durchgeführt wird oder wurde. Dies kann ein physischer Eingriff wie eine Operation sein, oder weniger invasiv wie Langzeit-dienste, Beratung oder Hypnotherapie.“ (siehe http://hl7.org/fhir/procedure.html)
+Eine Prozedur ist „eine Aktion, die an oder für einen Patienten durchgeführt wird oder wurde. Dies kann ein physischer Eingriff wie eine Operation sein, oder weniger invasiv wie Langzeit-dienste, Beratung oder Hypnotherapie.“ (siehe http://hl7.org/fhir/R4/procedure.html)
 
 Angaben zur Prozedur können von der bloßen Erfassung eines Prozedurenkodes bei einem Behandlungsfall bis hin zu einer detaillierten strukturierten OP-Dokumentation mit Hauptprozedur und Nebenprozeduren inklusive Anästhesie und Lagerungspflege mit Einzelerfassung von OP-Datum, Gesamt-OP-Zeit, Anästhesiezeit, Schnitt-Naht-Zeit, Operateuren, Anästhesisten, OP-Pflegern, Medikationen und weiterem reichen. 
 
@@ -39,7 +39,7 @@ Im vorliegenden Implementation Guide für das Modul PROZEDUR in der initialen Fa
 Wie einleitend angekündigt, fokussieren sich die Angaben im Modul PROZEDUR auf die wesentlichen Merkmale wie sie in den Use Cases der MII benötigt werden. Eine Beschreibung dieser Use Cases findet sich nachgfolgend im Abschnitt "Beschreibung von Szenarien für die Anwendung der Moduls PROZEDUR". Zunächst ist hier hauptsächlich die Prozedur selber und ein zugehöriges Durchführungsdatum zu nennen.
 Durchgeführte Operationen sollen durch ein Tripel aus einem Prozedurenkode, dem zugehörigen Katalog und dem Katalogtext eindeutig dargestellt werden. Eine Freitexteschreibung und die Angabe einer Seitenlokalisation können implizit vorhanden sein. 
 
-In der Regel wird in den Quellsystemen der beteiligten Universitätsklinika für die Kodierung von Prozeduren der proprietär-deutschen [OPS-Kataloge](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/) vom DIMDI benutzt. Als Wegmarke für die Weiterentwicklung der Dokumentation haben wir (wie im Modul [DIAGNOSE](https://simplifier.net/guide/medizininformatikinitiative-moduldiagnosen-implementationguide)) die ausführliche Nomenklatur SNOMED CT als erlaubtes Kodesystem ergänzt.
+In der Regel wird in den Quellsystemen der beteiligten Universitätsklinika für die Kodierung von Prozeduren der proprietär-deutschen [OPS-Kataloge](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/OPS-ICHI/OPS/_node.html) vom BfArM benutzt. Als Wegmarke für die Weiterentwicklung der Dokumentation haben wir (wie im Modul [DIAGNOSE](https://simplifier.net/mii-basismodul-diagnose-2024)) die ausführliche Nomenklatur SNOMED CT als erlaubtes Kodesystem ergänzt.
 
 ### Freitextbeschreibung
 Sofern in den Quelldokumentationen vorhanden, erlaubt das Informationsmodell des MII-Kerndatensatzes diese abzuspeichern und zu präsentieren.
@@ -63,7 +63,7 @@ Kapitel 5 Operationen ist topographisch-anatomisch gegliedert, Eingriffe sind al
 | 8        | 8-01... 8-99 | Nichtoperative therapeutische Maßnahmen |
 | 9        | 9-20... 9-99 | Ergänzende Maßnahmen                    |
 
-Bei der allgemeinen Kodierung müssen die ["Hinweise für die Benutzung"](https://www.dimdi.de/static/de/klassifikationen/ops/kode-suche/opshtml2020/zusatz-04-hinweise-zur-benutzung.htm) beachtet werden. Bei Kodierung für Abrechnungszwecke im stationären Bereich ist die Anwendung der [Deutschen Kodierrichtlinien (DKR und DKR-Psych) der Selbstverwaltungspartner](https://www.g-drg.de/G-DRG-System_2020/Kodierrichtlinien/Deutsche_Kodierrichtlinien_2020) erforderlich.
+Bei der allgemeinen Kodierung müssen die ["Hinweise für die Benutzung"](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/OPS-ICHI/OPS/_node.html) beachtet werden. Bei Kodierung für Abrechnungszwecke im stationären Bereich ist die Anwendung der [Deutschen Kodierrichtlinien (DKR und DKR-Psych) der Selbstverwaltungspartner](https://www.g-drg.de/ag-drg-system-2023/kodierrichtlinien) erforderlich.
 
 #### Vollständiger Prozedurenkode
 Wie bei anderen Kodierungen auch genügt für die eindeutige Dokumention einer Prozedur nicht die Angabe eines Kodes.
