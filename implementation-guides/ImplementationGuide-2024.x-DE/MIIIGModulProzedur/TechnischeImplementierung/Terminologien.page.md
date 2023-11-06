@@ -59,4 +59,4 @@ Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten.
 
 ### CodeSystems
 
-Das CodeSystem mit der Canonical http://fhir.de/CodeSystem/dimdi/ops wird innerhalb des Moduls Prozedur, gemäß [Lizenzbedingungen DIMDI](https://www.dimdi.de/static/.downloads/deutsch/downloadbedhilfe.pdf), publiziert.
+Das CodeSystem mit der Canonical http://fhir.de/CodeSystem/bfarm/ops wird innerhalb des Moduls Prozedur, gemäß [Lizenzbedingungen BfArM](https://www.bfarm.de/DE/Kodiersysteme/Klassifikationen/OPS-ICHI/OPS/_node.html), publiziert.

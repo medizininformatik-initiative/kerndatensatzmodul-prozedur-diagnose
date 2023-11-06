@@ -11,7 +11,7 @@ Im Folgenden werden die Use-Cases des Moduls, sowie die dazugehörigen FHIR-Prof
 | Veröffentlichung   |   |
 |---------|---|
 | Datum   | 31.10.2023  |
-| Version | 2.0.0-ballot (2024.0.0-ballot)    |
+| Version | 2.0.0-ballot (2024.0.0-ballot) |
 | Status  | Active      |
 | Realm   | DE          | 
 
@@ -28,9 +28,9 @@ Dieser Leitfaden ist im Rahmen der Medizininformatik-Initative erstellt wurden u
 * Karoline Buckow, TMF – Technologie- und Methodenplattform
 für die vernetzte medizinische Forschung e.V.
 
-Fragen zu der vorliegenden Publikation können jederzeit unter [chat.fhir.org](chat.fhir.org) im Stream 'german/mi-initiative' gestellt werden.
+Fragen zu der vorliegenden Publikation können jederzeit unter [chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative) im Stream 'german/mi-initiative' gestellt werden.
 
-Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier-Projekt stets gern entgegengenommen.
+Anmerkungen und Kritik wird in Form von 'Issues' im [GitHub Repository](https://github.com/medizininformatik-initiative/kerndatensatzmodul-prozedur) stets gern entgegengenommen.
 
 ## Autoren (in alphabetischer Reihenfolge)
 
@@ -66,7 +66,7 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier-Projekt stets ger
 * Ulrich Sax (HiGHmed)
 
 ## Copyright-Hinweis, Nutzungshinweise
-Copyright © 2019: TMF e. V., Charlottenstraße 42, 10117 Berlin
+Copyright © 2019+: TMF e. V., Charlottenstraße 42, 10117 Berlin
 
 Der Inhalt dieser Spezifikation ist öffentlich. Die Nachnutzungs- bzw. Veröffentlichungsansprüche sind nicht beschränkt.
 
