@@ -8,6 +8,7 @@
     - /**/*.xml
     - /**/*.json
     - "!package.json"
+    - "!fhirpkg.lock.json"
 
 - name: resource-validation
   status: "Validating resources against the FHIR standard and their profiles"
