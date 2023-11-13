@@ -38,8 +38,10 @@ jobs:
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
           OUTPUT_FORMAT: RAW
-          EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA
           JAVA_VALIDATION_OPTIONS: -allow-example-urls true
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
-          JAVA_VALIDATOR_VERSION: 6.0.23
+          JAVA_VALIDATOR_VERSION: 6.2.3
+
+          #The Coding provided (http://fhir.de/CodeSystem/bfarm/ops#5-470) is not in the value set 'OpsVS' (http://fhir.de/ValueSet/bfarm/ops|1.4.0), and a code is required from this value set.
+          EXPECTED_FAILS: VALIDATION_EXAMPLES_JAVA
