@@ -1,5 +1,22 @@
-- include: recommended
-  name: include-recommended
+# This is the minimal rule series
+# removed 'action: unique' due to multiple versions of OPS CodeSystem
+
+- action: parse
+  name: parse-fhir-resources
+  status: "Checking if all FHIR Resource files can be parsed"
+  files:
+    - /**/*.xml
+    - /**/*.json
+    - "!package.json"
+    - "!fhirpkg.lock.json"
+
+- name: resource-validation
+  status: "Validating resources against the FHIR standard and their profiles"
+  action: validate
+  category: Resource
+  suppress:
+    - 6005
+    - eld-16
 
 - name: version-filled
   filter: (StructureDefinition or ValueSet or CodeSystem or ConceptMap or StructureMap or NamingSystem or SearchParameter or CapabilityStatement or OperationDefinition or ImplementationGuide).exists()
