@@ -41,15 +41,13 @@ Description: "Dieses Profil beschreibt eine Prozedur in der Medizininformatik-In
     sct 0..1 MS
 * code.coding[ops] only CodingOPS
 * code.coding[ops] from OpsVS (required)
-* code.coding[ops].extension ^slicing.discriminator.type = #value
-* code.coding[ops].extension ^slicing.discriminator.path = "url"
-* code.coding[ops].extension ^slicing.rules = #open
-* code.coding[ops].extension[Seitenlokalisation] ^sliceName = "Seitenlokalisation"
+* code.coding[ops] ^patternCoding.system = "http://fhir.de/CodeSystem/bfarm/ops"
 * code.coding[ops].extension[Seitenlokalisation] ^mustSupport = true
 * code.coding[ops].system MS
 * code.coding[ops].version MS
 * code.coding[ops].code MS
 * code.coding[sct] from MII_VS_Prozedur_Prozeduren_SNOMEDCT (required)
+* code.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
 * code.coding[sct].system 1.. MS
 * code.coding[sct].code 1.. MS
 * subject 1..1 MS
@@ -57,7 +55,5 @@ Description: "Dieses Profil beschreibt eine Prozedur in der Medizininformatik-In
 * performed[x] 1.. MS
 * performed[x] only dateTime or Period
 * bodySite MS
-* bodySite ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* bodySite ^binding.extension.valueString = "BodySite"
 * bodySite ^binding.strength = #extensible
 * note MS
