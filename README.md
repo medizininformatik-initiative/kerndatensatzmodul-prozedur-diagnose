@@ -11,7 +11,7 @@ Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Basismoduls 'Proze
 ### Status:
 
 Aktuelle stabile Version: [1.0.8](https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.prozedur/1.0.8) </br>
-Vorschauversion: 2024.0.0
+Vorschauversion: [2024.0.0-ballot](https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.prozedur/2024.0.0-ballot)
 <!-- Reifegrad: -->
 
 Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
