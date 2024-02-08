@@ -24,10 +24,11 @@
     "include": [
       {
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20230731",
         "concept": [
           {
-            "code": "103693007",
-            "display": "Diagnostic procedure"
+            "code": "165197003",
+            "display": "Diagnostic assessment"
           },
           {
             "code": "363679005",
