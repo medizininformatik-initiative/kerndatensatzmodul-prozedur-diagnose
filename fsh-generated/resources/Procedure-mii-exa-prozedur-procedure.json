@@ -12,6 +12,7 @@
       {
         "code": "387713003",
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20230731",
         "display": "Surgical procedure (procedure)"
       }
     ]
@@ -21,6 +22,7 @@
       {
         "code": "80146002",
         "system": "http://snomed.info/sct",
+        "version": "http://snomed.info/sct/900000000000207008/version/20230731",
         "display": "Excision of appendix (procedure)"
       },
       {

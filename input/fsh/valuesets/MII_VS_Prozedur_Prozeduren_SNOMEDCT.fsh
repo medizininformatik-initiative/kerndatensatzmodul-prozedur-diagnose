@@ -8,4 +8,4 @@ Description: "Enthaelt alle SNOMED CT Procedure Codes"
 * ^status = #active
 * ^experimental = false
 * ^date = "2020-04-22"
-* include codes from system SNOMED_CT where concept descendent-of #71388002
+* include codes from system $sct where concept descendent-of #71388002
