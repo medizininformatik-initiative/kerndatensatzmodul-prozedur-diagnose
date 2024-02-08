@@ -7,7 +7,7 @@ Usage: #definition
 * name = "MII_SP_Prozedur_BodySite"
 * status = #active
 * experimental = false
-* date = "2022-02-21"
+* date = "2024-02-08"
 * description = "Suchparameter für Procedure.bodySite"
 * code = #bodySite
 * base = #Procedure

@@ -7,7 +7,7 @@ Description: "Durchführungsabsicht / Intention mit der Prozedur ausgeführt wir
 * insert Publisher
 * ^status = #active
 * ^experimental = false
-* ^date = "2021-05-25"
+* ^date = "2024-02-08"
 * $sct#262202000 "Therapeutic"
 * $sct#363676003 "Palliative intent"
 * $sct#261004008 "Diagnostic intent"

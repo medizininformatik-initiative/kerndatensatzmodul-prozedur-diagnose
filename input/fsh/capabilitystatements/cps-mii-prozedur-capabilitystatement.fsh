@@ -8,7 +8,7 @@ Usage: #definition
 * title = "MII CPS Prozedur CapabilityStatement"
 * status = #active
 * experimental = false
-* date = "2022-02-21"
+* date = "2024-02-08"
 * description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Prozedur der Medizininformatik Initiative zu implementieren."
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements

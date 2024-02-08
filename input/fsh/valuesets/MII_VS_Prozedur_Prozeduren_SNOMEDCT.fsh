@@ -7,5 +7,5 @@ Description: "Enthaelt alle SNOMED CT Procedure Codes"
 * insert Publisher
 * ^status = #active
 * ^experimental = false
-* ^date = "2020-04-22"
+* ^date = "2024-02-08"
 * include codes from system $sct where concept descendent-of #71388002
