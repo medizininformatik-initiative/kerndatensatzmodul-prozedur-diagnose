@@ -1,6 +1,6 @@
 {
   "name": "de.medizininformatikinitiative.kerndatensatz.prozedur",
-  "version": "2024.0.0-ballot",
+  "version": "2024.0.0",
   "description": "Medizininformatik Initiative - Modul Prozedur",
   "author": "alexanderzautke",
   "fhirVersions": [

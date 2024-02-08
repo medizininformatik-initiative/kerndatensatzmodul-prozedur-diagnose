@@ -7,13 +7,13 @@ Description: "Durchführungsabsicht / Intention mit der Prozedur ausgeführt wir
 * insert Publisher
 * ^status = #active
 * ^experimental = false
-* ^date = "2021-05-25"
-* SNOMED_CT#262202000 "Therapeutic"
-* SNOMED_CT#363676003 "Palliative intent"
-* SNOMED_CT#261004008 "Diagnostic intent"
-* SNOMED_CT#264931009 "Symptomatic"
-* SNOMED_CT#255231005 "Revision - value"
-* SNOMED_CT#255302009 "Complicated"
-* SNOMED_CT#129428001 "Preventive intent"
-* SNOMED_CT#394602003 "Rehabilitation - speciality"
-* SNOMED_CT#74964007 "Other"
+* ^date = "2024-02-08"
+* $sct#262202000 "Therapeutic"
+* $sct#363676003 "Palliative intent"
+* $sct#261004008 "Diagnostic intent"
+* $sct#264931009 "Symptomatic"
+* $sct#255231005 "Revision - value"
+* $sct#255302009 "Complicated"
+* $sct#129428001 "Preventive intent"
+* $sct#394602003 "Rehabilitation - speciality"
+* $sct#74964007 "Other"
