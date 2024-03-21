@@ -63,14 +63,14 @@ select
 
 | FHIR-Element | Erklärung |
 |--------------|-----------|
-| Procedure.id      | Must-support, jedoch optional        |
-| Procedure.meta      | Must-support, jedoch optional       |
+| Procedure.id      | Must-support, jedoch OPTIONAL        |
+| Procedure.meta      | Must-support, jedoch OPTIONAL       |
 | Procedure.status      | Keine Einschränkungen bezüglich des gewählten Status|
-| Procedure.category             | Verpflichtende SNOMED CT Kategorisierung auf Basis des Prozedurenkodes. Siehe {{pagelink:Terminologien}} für ein Mapping von OPS Klassentitel auf SNOMED CT. Nur relevant falls die Prozedur per OPS kodiert wird, siehe proc-mii-1        |
-|  Procedure.code            |   Verpflichtende Kodierung entweder per OPS oder SNOMED. Weitere Kodierungen erlaubt.       |
+| Procedure.category             | VERPFLICHTEND SNOMED CT Kategorisierung auf Basis des Prozedurenkodes. Siehe {{pagelink:Terminologien}} für ein Mapping von OPS Klassentitel auf SNOMED CT. Nur relevant falls die Prozedur per OPS kodiert wird, siehe proc-mii-1        |
+|  Procedure.code            |   VERPFLICHTEND Kodierung entweder per OPS oder SNOMED. Weitere Kodierungen OPTIONAL.       |
 |  Procedure.code:ops            |   Siehe [OPS-Kodierung - Deutsche Basisprofile](https://ig.fhir.de/basisprofile-de/1.4.0/Ressourcen-ProzedurenProcedure.html#Ressourcen-Procedure-OPS)       |
-| Procedure.performed\[x\] | Neben der Angabe als dateTime kann auch eine Period angegeben werden (falls Start- und Endzeitpunkt bekannt sind)|
-| Procedure.bodySite           | Detaillierte Kodierung der Körperstelle(n) der Prozedur. Sollte NICHT verwendet werden um die Lateralität der Prozedur abzubilden. Dies ist eine Eigenschaft des Kodes. Siehe Procedure.code:ops |
+| Procedure.performed\[x\] | Neben der Angabe als dateTime KANN auch eine Period angegeben werden (falls Start- und Endzeitpunkt bekannt sind)|
+| Procedure.bodySite           | Detaillierte Kodierung der Körperstelle(n) der Prozedur. SOLLTE NICHT verwendet werden um die Lateralität der Prozedur abzubilden. Dies ist eine Eigenschaft des Kodes. Siehe Procedure.code:ops |
 | Procedure.note | Freitextangaben zur Prozedur|
 
 ---
@@ -97,7 +97,7 @@ select
 
 **Constraints**
 
-Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden:
+Folgende Invarianten MÜSSEN bei der Implementierung des Profils beachtet werden:
 
 **Constraints**: @``` from StructureDefinition where url = 'https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure' for differential.element.constraint select key,severity,human, expression```
 
