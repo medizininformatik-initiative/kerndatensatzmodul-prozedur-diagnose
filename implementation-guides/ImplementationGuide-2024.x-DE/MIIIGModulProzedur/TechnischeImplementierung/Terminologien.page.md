@@ -22,7 +22,7 @@ Siehe [SNOMED-CT / OPS Mapping - Deutsche Basisprofile](https://ig.fhir.de/basis
 
 ### ValueSets
 
-Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten. Zur Verwendung für Validationszwecke MUSS diese per FHIR-Terminologieserver erstellt werden.
+Es ist zu beachten, dass die nachfolgenden ValueSets keine Expansion beinhalten. Zur Verwendung für Validationszwecke MUSS diese per FHIR-Terminologieserver erstellt werden. ValueSet-Ressourcen verwenden in diesem Release modulübergreifend im Element `ValueSet.compose.include.version` SNOMED CT in der Version `http://snomed.info/sct/900000000000207008/version/20230731`, um eine stabile [ValueSet-Expansion](http://hl7.org/fhir/R4/valueset.html#expansion) sicherzustellen.
 
 | MII_VS_Prozedur_Durchfuehrungsabsicht_SNOMEDCT   |   |
 |--|--|
