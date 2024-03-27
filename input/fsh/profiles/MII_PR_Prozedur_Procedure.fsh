@@ -7,7 +7,7 @@ Description: "Dieses Profil beschreibt eine Prozedur in der Medizininformatik-In
 * insert PR_CS_VS_Version
 * insert Publisher
 * ^status = #active
-* ^date = "2024-02-08"
+* ^date = "2024-03-27"
 * obeys proc-mii-1
 * id MS
 * meta MS
@@ -52,7 +52,7 @@ Description: "Dieses Profil beschreibt eine Prozedur in der Medizininformatik-In
 * code.coding[sct].system 1.. MS
 * code.coding[sct].code 1.. MS
 * subject 1..1 MS
-* subject only $MII-Reference
+//* subject only $MII-Reference
 * performed[x] 1.. MS
 * performed[x] only dateTime or Period
 * bodySite MS
