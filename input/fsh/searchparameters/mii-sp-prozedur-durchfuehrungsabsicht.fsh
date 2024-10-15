@@ -7,9 +7,9 @@ Usage: #definition
 * name = "MII_SP_Prozedur_Durchfuehrungsabsicht"
 * status = #active
 * experimental = false
-* date = "2024-02-08"
+* date = "2024-10-11"
 * description = "Suchparameter für Procedure.extension:Durchfuehrungsabsicht"
 * code = #durchfuehrungsabsicht
 * base = #Procedure
 * type = #token
-* expression = "Procedure.extension('https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht  ').value"
+* expression = "Procedure.extension('https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht').value"
