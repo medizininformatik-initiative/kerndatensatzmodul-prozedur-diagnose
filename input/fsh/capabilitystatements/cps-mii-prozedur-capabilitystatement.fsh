@@ -8,7 +8,7 @@ Usage: #definition
 * title = "MII CPS Prozedur CapabilityStatement"
 * status = #active
 * experimental = false
-* date = "2024-02-08"
+* date = "2024-10-18"
 * description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Prozedur der Medizininformatik Initiative zu implementieren."
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements
@@ -19,7 +19,7 @@ Usage: #definition
 * rest.resource.extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.extension.valueCode = #SHALL
 * rest.resource.type = #Procedure
-* rest.resource.supportedProfile = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2.0.0-ballot"
+* rest.resource.supportedProfile = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2025.0.0"
 * rest.resource.interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource.interaction[=].extension.valueCode = #SHALL
 * rest.resource.interaction[=].code = #read
