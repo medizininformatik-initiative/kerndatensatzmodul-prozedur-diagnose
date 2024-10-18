@@ -18,7 +18,7 @@
   "title": "MII CPS Prozedur CapabilityStatement",
   "status": "active",
   "experimental": false,
-  "date": "2024-02-08",
+  "date": "2024-10-18",
   "description": "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Prozedur der Medizininformatik Initiative zu implementieren.",
   "jurisdiction": [
     {
@@ -50,7 +50,7 @@
           ],
           "type": "Procedure",
           "supportedProfile": [
-            "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2.0.0-ballot"
+            "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2025.0.0"
           ],
           "interaction": [
             {
@@ -158,7 +158,7 @@
                 }
               ],
               "name": "bodySite",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-BodySite",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-procedure-bodysite",
               "type": "token"
             },
             {
@@ -169,7 +169,7 @@
                 }
               ],
               "name": "dokumentationsdatum",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-Dokumentationsdatum",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-procedure-dokumentationsdatum",
               "type": "date"
             },
             {
@@ -180,7 +180,7 @@
                 }
               ],
               "name": "durchfuehrungsabsicht",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-Durchfuehrungsabsicht",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-procedure-durchfuehrungsabsicht",
               "type": "token"
             }
           ]

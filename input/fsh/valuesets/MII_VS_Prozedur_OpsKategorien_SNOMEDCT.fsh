@@ -11,6 +11,6 @@ Description: "Enthaelt alle SNOMED CT Codes für ein Mapping der OPS Klassentite
 * $sct#165197003 "Diagnostic assessment"
 * $sct#363679005 "Imaging"
 * $sct#387713003 "Surgical procedure"
-* $sct#18629005 "Administration of medicine"
+* $sct#18629005 "Administration of drug or medicament"
 * $sct#277132007 "Therapeutic procedure"
 * $sct#394841004 "Other category"
