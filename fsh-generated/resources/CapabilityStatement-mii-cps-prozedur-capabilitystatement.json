@@ -158,7 +158,7 @@
                 }
               ],
               "name": "bodySite",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-BodySite",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-procedure-bodysite",
               "type": "token"
             },
             {
@@ -169,7 +169,7 @@
                 }
               ],
               "name": "dokumentationsdatum",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-Dokumentationsdatum",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-procedure-dokumentationsdatum",
               "type": "date"
             },
             {
@@ -180,7 +180,7 @@
                 }
               ],
               "name": "durchfuehrungsabsicht",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/SearchParameter/Procedure-Durchfuehrungsabsicht",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-procedure-durchfuehrungsabsicht",
               "type": "token"
             }
           ]
