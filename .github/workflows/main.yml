@@ -45,7 +45,7 @@ jobs:
           JAVA_VALIDATION_OPTIONS: -allow-example-urls true -tx n/a
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
-          JAVA_VALIDATOR_VERSION: 6.3.29
+          JAVA_VALIDATOR_VERSION: 6.3.32
           SUSHI_ENABLED: true 
           SUSHI_VERSION: 3.12.0
 
