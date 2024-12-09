@@ -5,7 +5,8 @@ Description: "Intention der Prozedur"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Durchfuehrungsabsicht"
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^date = "2024-02-08"
+* insert LicenseCodeableCCBY40
+* ^date = "2024-12-09"
 * ^context.type = #element
 * ^context.expression = "Procedure"
 * url only uri

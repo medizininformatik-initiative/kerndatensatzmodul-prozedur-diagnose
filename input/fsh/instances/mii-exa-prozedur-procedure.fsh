@@ -1,6 +1,7 @@
 Instance: mii-exa-prozedur-procedure
 InstanceOf: MII_PR_Prozedur_Procedure
 Usage: #example
+* insert TestDataLabel
 * meta.profile[0] = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/Procedure|2025.0.0"
 * status = #completed
 * category = $sct-no-ver#387713003 "Surgical procedure (procedure)"

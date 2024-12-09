@@ -6,7 +6,8 @@ Description: "Logische Repräsentation des Basismoduls Prozedur"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/StructureDefinition/LogicalModel/Prozedur"
 * insert PR_CS_VS_Version
 * insert Publisher
-* ^date = "2024-03-27"
+* insert LicenseCodeableCCBY40
+* ^date = "2024-12-09"
 * . ^short = "Das Basismodul Prozeduren umfasst die Beschreibung diagnostischer oder therapeutischer Maßnahmen, die als Leistungskomplexe auch für die Abrechnung dokumentiert und kodiert werden, z.B. Operationen."
 * OPSProzedurKodiert 0..1 BackboneElement "Kodierung der durchgeführten Prozedur mittels OPS." "Kodierung der durchgeführten Prozedur mittels OPS."
   * VollstaendigerProzedurencode 0..1 Coding "Vollständiger Prozedurencode" "Der vollständige Prozedurencode: Tripel aus OPS-Code, Codesystem (inkl. Version!) und Katalogtext."
