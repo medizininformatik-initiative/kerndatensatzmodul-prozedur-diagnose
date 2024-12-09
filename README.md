@@ -10,12 +10,7 @@ Das vorliegende Projekt beschreibt die FHIR-Spezifikation des Basismoduls 'Proze
 
 ### Status:
 
-Aktuelle stabile Version: [2024.0.0](https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.prozedur/2024.0.0) </br>
-
-<!-- Reifegrad: -->
-
-Alle veröffentlichen FHIR-Artefakte innerhalb des Projektes verfügen über einen Status durch welchen der jeweilige Reifegrad abgeleitet werden kann.
-Profile mit dem Status 'Draft' wurden noch nicht ballotiert und können noch diversen und substantiellen Änderungen unterliegen. Verpflichtende und ballotierte Ergebnisse sind unter dem Tab 'Packages' zu finden.
+Siehe [Übersicht der Versionen der Kerndatensatz-Module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/%C3%9Cbersicht-%C3%BCber-Versionen-der-Kerndatensatz%E2%80%90Module)
 
 ### Mitwirkungs- und Kommentierungsmöglichkeiten
 
