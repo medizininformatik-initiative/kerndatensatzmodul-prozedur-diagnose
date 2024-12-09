@@ -10,8 +10,9 @@ Description: "Dieses Profil beschreibt eine Prozedur in der Medizininformatik-In
 * insert Translation(^description, en-US, A procedure that is or was performed on or for a patient.)
 * insert PR_CS_VS_Version
 * insert Publisher
+* insert LicenseCodeableCCBY40
 * ^status = #active
-* ^date = "2024-03-27"
+* ^date = "2024-12-09"
 * obeys proc-mii-1
 * id MS
 * meta MS

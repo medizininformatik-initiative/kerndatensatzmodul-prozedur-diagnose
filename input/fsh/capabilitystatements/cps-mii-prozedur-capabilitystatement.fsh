@@ -4,11 +4,12 @@ Usage: #definition
 * url = "https://www.medizininformatik-initiative.de/fhir/core/modul-prozedur/CapabilityStatement/metadata"
 * insert Version
 * insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
 * name = "MII_CPS_Prozedur_CapabilityStatement"
 * title = "MII CPS Prozedur CapabilityStatement"
 * status = #active
 * experimental = false
-* date = "2024-10-18"
+* date = "2024-12-09"
 * description = "Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss um das Modul Prozedur der Medizininformatik Initiative zu implementieren."
 * jurisdiction = urn:iso:std:iso:3166#DE "Germany"
 * kind = #requirements

@@ -6,9 +6,10 @@ Description: "Durchführungsabsicht / Intention mit der Prozedur ausgeführt wir
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert SnomedLicense
+* insert LicenseCodeableCCBY40
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-11-13"
+* ^date = "2024-12-09"
 * $sct#262202000 "Therapeutic"
 * $sct#363676003 "Palliative intent"
 * $sct#261004008 "Diagnostic intent"

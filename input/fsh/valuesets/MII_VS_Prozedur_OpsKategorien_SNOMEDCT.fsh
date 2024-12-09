@@ -6,7 +6,8 @@ Description: "Enthaelt alle SNOMED CT Codes für ein Mapping der OPS Klassentite
 * insert PR_CS_VS_Version
 * insert Publisher
 * insert SnomedLicense
-* ^date = "2024-11-13"
+* insert LicenseCodeableCCBY40
+* ^date = "2024-12-09"
 * ^experimental = false
 * ^status = #active
 * $sct#165197003 "Diagnostic assessment"
